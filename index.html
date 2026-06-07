@@ -1,0 +1,1040 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Portfolio | Lê Đức Tiến - UET VNU</title>
+    <meta name="description" content="Digital Portfolio của Lê Đức Tiến - Sinh viên UET-VNU. Tổng hợp kết quả học tập môn Nhập môn Công nghệ số và Ứng dụng AI.">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- App Container -->
+    <div class="app-container">
+
+        <!-- Mobile Top Navigation Bar -->
+        <nav class="mobile-nav" style="display: none;">
+            <div class="mobile-logo" style="font-family: var(--font-heading); font-weight: 800; font-size: 1.1rem; color: var(--primary);">LĐTIÊN.PORTFOLIO</div>
+            <button class="theme-toggle" id="mobile-theme-toggle" title="Chuyển chế độ sáng/tối">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/></svg>
+            </button>
+        </nav>
+
+        <!-- Sidebar Navigation -->
+        <aside class="sidebar">
+            <div class="sidebar-header">
+                <div class="avatar-wrapper">
+                    <div class="avatar">LĐ</div>
+                </div>
+                <div class="student-name">Lê Đức Tiến</div>
+                <div class="student-class">K70i - cs6 - cn8</div>
+                <div style="margin-top: 0.5rem;"><span class="school-tag">UET - VNU</span></div>
+            </div>
+
+            <nav class="sidebar-menu">
+                <div class="menu-label">Tổng quan</div>
+                <ul>
+                    <li>
+                        <div class="menu-item active" data-target="sec-intro">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="7" height="9" x="3" y="3" rx="1"/><rect width="7" height="5" x="14" y="3" rx="1"/><rect width="7" height="9" x="14" y="12" rx="1"/><rect width="7" height="5" x="3" y="16" rx="1"/></svg>
+                            <span>Giới thiệu</span>
+                        </div>
+                    </li>
+                </ul>
+
+                <div class="menu-label">Dự án thành phần</div>
+                <ul>
+                    <li>
+                        <div class="menu-item" data-target="sec-tuan1">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 20a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2h-7.9a2 2 0 0 1-1.69-.9L9.6 3.9A2 2 0 0 0 7.93 3H4a2 2 0 0 0-2 2v13a2 2 0 0 0 2 2Z"/></svg>
+                            <span>Tuần 1: Quản lý tệp tin</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="menu-item" data-target="sec-tuan2">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+                            <span>Tuần 2: Học thuật Search</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="menu-item" data-target="sec-tuan3">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+                            <span>Tuần 3: Prompt & CNN</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="menu-item" data-target="sec-tuan4">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+                            <span>Tuần 4: Làm việc nhóm</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="menu-item" data-target="sec-tuan5">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10z"/><path d="M12 16a4 4 0 1 0 0-8 4 4 0 0 0 0 8z"/></svg>
+                            <span>Tuần 5: Sáng tạo với AI</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="menu-item" data-target="sec-tuan6">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                            <span>Tuần 6: AI có trách nhiệm</span>
+                        </div>
+                    </li>
+                </ul>
+
+                <div class="menu-label">Tổng kết</div>
+                <ul>
+                    <li>
+                        <div class="menu-item" data-target="sec-conclusion">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                            <span>Đánh giá hành trình</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="menu-item" data-target="sec-downloads">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" x2="12" y1="15" y2="3"/></svg>
+                            <span>Tải về tài nguyên</span>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+
+            <div class="sidebar-footer">
+                <button class="theme-toggle" id="theme-toggle-btn" title="Chuyển chế độ sáng/tối">
+                    <svg id="theme-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/></svg>
+                </button>
+                <div class="school-tag">UET.A13</div>
+            </div>
+        </aside>
+
+        <!-- Main Content Area -->
+        <main class="main-content">
+
+            <!-- ==========================================
+                 SECTION: INTRO (DASHBOARD)
+                 ========================================== -->
+            <section id="sec-intro" class="page-section active">
+                <div class="section-header">
+                    <h1 class="section-title">Tổng quan Portfolio</h1>
+                    <p class="section-subtitle">Giới thiệu bản thân và mục tiêu học tập môn học Công nghệ số & AI</p>
+                </div>
+
+                <!-- Intro Grid -->
+                <div class="intro-grid">
+                    <!-- Profile Card -->
+                    <div class="glass-card profile-card">
+                        <div class="profile-card-header">
+                            <div class="profile-avatar">TIÊN</div>
+                            <div class="profile-title-group">
+                                <h2>Lê Đức Tiến</h2>
+                                <span class="profile-badge">Sinh viên UET-VNU</span>
+                            </div>
+                        </div>
+                        <ul class="profile-info-list">
+                            <li><strong>Mã sinh viên:</strong> <span>25021981</span></li>
+                            <li><strong>Trường học:</strong> <span>Đại học Công nghệ - ĐHQGHN</span></li>
+                            <li><strong>Lớp học phần:</strong> <span>UET.A13</span></li>
+                            <li><strong>Lớp sinh hoạt:</strong> <span>K70i - cs6 - cn8</span></li>
+                            <li style="grid-column: span 2;"><strong>Email liên lạc:</strong> <span>leductien15052007tb@gmail.com</span></li>
+                        </ul>
+                    </div>
+
+                    <!-- Statistics Card -->
+                    <div class="stats-grid">
+                        <div class="glass-card stat-card">
+                            <div class="stat-val">6</div>
+                            <div class="stat-lbl">Dự án hoàn thành</div>
+                        </div>
+                        <div class="glass-card stat-card">
+                            <div class="stat-val">71%</div>
+                            <div class="stat-lbl">Tiết kiệm thời gian</div>
+                        </div>
+                        <div class="glass-card stat-card">
+                            <div class="stat-val">81.5%</div>
+                            <div class="stat-lbl">Độ chính xác CNN</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="intro-grid">
+                    <!-- Portfolio Objectives -->
+                    <div class="glass-card objectives-card">
+                        <h3 style="font-family: var(--font-heading); font-size: 1.25rem; margin-bottom: 1rem; color: var(--primary);">Mục tiêu của Portfolio này</h3>
+                        <ul>
+                            <li><strong>Hệ thống hóa năng lực số:</strong> Lưu trữ và trình bày khoa học toàn bộ 6 sản phẩm bài tập thực tế từ cơ bản đến nâng cao.</li>
+                            <li><strong>Minh chứng kiểm soát AI:</strong> Thể hiện vai trò kiểm duyệt (Human-in-the-loop) để tăng cường tối đa hiệu quả thay vì lạm dụng AI.</li>
+                            <li><strong>Trải nghiệm UX tối ưu:</strong> Xây dựng giao diện web động trực quan giúp người xem, thầy cô dễ dàng kiểm chứng tiến trình học tập của sinh viên.</li>
+                        </ul>
+                    </div>
+
+                    <!-- Personal Goals -->
+                    <div class="glass-card objectives-card">
+                        <h3 style="font-family: var(--font-heading); font-size: 1.25rem; margin-bottom: 1rem; color: var(--secondary);">Mục tiêu học tập & Phát triển</h3>
+                        <ul>
+                            <li><strong>Kiến thức cốt lõi:</strong> Làm chủ tư duy tổ chức dữ liệu, tối ưu truy vấn thông tin khoa học và cơ chế Prompt Engineering.</li>
+                            <li><strong>Ứng dụng chuyên ngành:</strong> Nghiên cứu sâu về An toàn thông tin, ứng dụng học sâu (Deep Learning) để nhận diện mã độc hại.</li>
+                            <li><strong>Năng lực bổ trợ:</strong> Sử dụng thành thạo các công cụ làm việc nhóm trực tuyến và thiết kế tài liệu khoa học chuẩn học thuật.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Skills container -->
+                <div class="glass-card" style="margin-top: 1.8rem;">
+                    <div class="skills-container">
+                        <div class="skills-list-wrapper">
+                            <h3>Hồ sơ Kỹ năng & Công cụ hỗ trợ</h3>
+                            <div class="skills-categories">
+                                <div class="skill-category-item">
+                                    <div class="skill-category-label">
+                                        <span>AI & Prompt Engineering (Gemini, ChatGPT, Perplexity)</span>
+                                        <span>90%</span>
+                                    </div>
+                                    <div class="skill-bar-outer"><div class="skill-bar-inner" data-width="90%"></div></div>
+                                </div>
+                                <div class="skill-category-item">
+                                    <div class="skill-category-label">
+                                        <span>Machine Learning (PyTorch CNN Architecture)</span>
+                                        <span>80%</span>
+                                    </div>
+                                    <div class="skill-bar-outer"><div class="skill-bar-inner" data-width="80%"></div></div>
+                                </div>
+                                <div class="skill-category-item">
+                                    <div class="skill-category-label">
+                                        <span>Công cụ cộng tác (Trello, Docs, Drive, Discord)</span>
+                                        <span>95%</span>
+                                    </div>
+                                    <div class="skill-bar-outer"><div class="skill-bar-inner" data-width="95%"></div></div>
+                                </div>
+                                <div class="skill-category-item">
+                                    <div class="skill-category-label">
+                                        <span>Biên soạn tài liệu & Thiết kế (LaTeX, Canva AI, HTML/CSS)</span>
+                                        <span>85%</span>
+                                    </div>
+                                    <div class="skill-bar-outer"><div class="skill-bar-inner" data-width="85%"></div></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="radar-wrapper">
+                            <!-- SVG Radar representation -->
+                            <svg width="220" height="220" viewBox="0 0 200 200" style="overflow: visible;">
+                                <!-- Grid lines -->
+                                <polygon points="100,20 180,100 100,180 20,100" fill="none" stroke="var(--border-color)" stroke-width="1"/>
+                                <polygon points="100,40 160,100 100,160 40,100" fill="none" stroke="var(--border-color)" stroke-width="1"/>
+                                <polygon points="100,60 140,100 100,140 60,100" fill="none" stroke="var(--border-color)" stroke-width="1"/>
+                                <polygon points="100,80 120,100 100,120 80,100" fill="none" stroke="var(--border-color)" stroke-width="1"/>
+                                <!-- Axis -->
+                                <line x1="100" y1="20" x2="100" y2="180" stroke="var(--border-color)" stroke-width="1"/>
+                                <line x1="20" y1="100" x2="180" y2="100" stroke="var(--border-color)" stroke-width="1"/>
+                                <!-- Skill Area Polygon -->
+                                <!-- AI Prompting: 90% (top: 100-80 = 20 + 8 = 28) -->
+                                <!-- ML Coding: 80% (right: 100+64 = 164) -->
+                                <!-- Team Collab: 95% (bottom: 100+76 = 176) -->
+                                <!-- Writing/Design: 85% (left: 100-68 = 32) -->
+                                <polygon points="100,28 164,100 100,176 32,100" fill="rgba(99, 102, 241, 0.2)" stroke="var(--primary)" stroke-width="2"/>
+                                <!-- Dots -->
+                                <circle cx="100" cy="28" r="4" fill="var(--primary)"/>
+                                <circle cx="164" cy="100" r="4" fill="var(--primary)"/>
+                                <circle cx="100" cy="176" r="4" fill="var(--primary)"/>
+                                <circle cx="32" cy="100" r="4" fill="var(--primary)"/>
+                                <!-- Axis Labels -->
+                                <text x="100" y="12" fill="var(--text-main)" font-size="9" text-anchor="middle" font-weight="700">AI Prompting</text>
+                                <text x="186" y="103" fill="var(--text-main)" font-size="9" font-weight="700">Machine Learning</text>
+                                <text x="100" y="196" fill="var(--text-main)" font-size="9" text-anchor="middle" font-weight="700">Team Collaboration</text>
+                                <text x="-8" y="103" fill="var(--text-main)" font-size="9" font-weight="700" text-anchor="end">Writing & Design</text>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ==========================================
+                 SECTION: TUAN 1 (FILE MANAGEMENT)
+                 ========================================== -->
+            <section id="sec-tuan1" class="page-section">
+                <div class="section-header">
+                    <h1 class="section-title">Tuần 1: Quản lý Tệp tin & Thư mục</h1>
+                    <p class="section-subtitle">Xây dựng cấu trúc thư mục tối ưu cho việc học tập và nghiên cứu khoa học</p>
+                </div>
+
+                <div class="glass-card" style="margin-bottom: 1.8rem;">
+                    <h3 style="font-family: var(--font-heading); margin-bottom: 1rem;">Quy tắc Tổ chức Hệ thống Tệp tin của Lê Đức Tiến</h3>
+                    <p style="font-size: 0.95rem; line-height: 1.6; color: var(--text-muted); margin-bottom: 1.2rem;">
+                        Để duy trì một không gian làm việc số khoa học, tôi thiết lập cấu trúc thư mục học tập chuẩn hóa tại UET-VNU. Hệ thống này đảm bảo: phân loại rõ ràng theo từng môn học/nhiệm vụ, tách biệt tài nguyên học tập và kết quả thực hành, đặt tên tệp tin tuân thủ quy tắc thống nhất (không dấu tiếng Việt, phân tách bằng dấu gạch dưới, ghi rõ phiên bản).
+                    </p>
+                    <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem;">
+                        <div style="background: var(--bg-input); padding: 1rem; border-radius: 10px; border: 1px solid var(--border-color);">
+                            <strong style="color: var(--primary); display: block; margin-bottom: 0.25rem;">Cấu trúc Khoa học</strong>
+                            <span style="font-size: 0.8rem; color: var(--text-muted);">Phân cấp từ tổng quan đến chi tiết, tối đa 3 cấp thư mục tránh rối mắt.</span>
+                        </div>
+                        <div style="background: var(--bg-input); padding: 1rem; border-radius: 10px; border: 1px solid var(--border-color);">
+                            <strong style="color: var(--secondary); display: block; margin-bottom: 0.25rem;">Quy tắc Đặt tên Sáng tạo</strong>
+                            <span style="font-size: 0.8rem; color: var(--text-muted);">Format: <code>[MonHoc]_[TuanX]_[NoiDung]_[vVersion]</code> để quản lý lịch sử.</span>
+                        </div>
+                        <div style="background: var(--bg-input); padding: 1rem; border-radius: 10px; border: 1px solid var(--border-color);">
+                            <strong style="color: var(--accent); display: block; margin-bottom: 0.25rem;">Khả năng Định vị Tốc độ</strong>
+                            <span style="font-size: 0.8rem; color: var(--text-muted);">Cơ chế đặt phím tắt (shortcut) và từ khóa tìm kiếm nhanh giúp truy cập dưới 3 giây.</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tuan1-split">
+                    <!-- Interactive File Tree -->
+                    <div class="glass-card">
+                        <h3 style="font-family: var(--font-heading); margin-bottom: 1.2rem; font-size: 1.1rem; color: var(--primary);">Mô phỏng Cây Thư mục Tương tác</h3>
+                        <p style="font-size: 0.8rem; color: var(--text-muted); margin-bottom: 1rem;">Click vào các thư mục để mở rộng và click vào tệp tin để xem ảnh minh chứng tương ứng.</p>
+                        
+                        <div class="file-tree-container">
+                            <div class="tree-node tree-root tree-folder expanded">
+                                <div class="node-label">
+                                    <span class="node-icon">📁</span>
+                                    <span>LeDucTien_25021981</span>
+                                </div>
+                                <div class="node-children">
+                                    <div class="tree-node tree-folder">
+                                        <div class="node-label">
+                                            <span class="node-icon">📁</span>
+                                            <span>Tuan_1_FileManagement</span>
+                                        </div>
+                                        <div class="node-children">
+                                            <div class="tree-node tree-file" data-image="1">
+                                                <div class="node-label">
+                                                    <span class="node-icon">📄</span>
+                                                    <span>CauTrucThuMuc_Optimal.png</span>
+                                                </div>
+                                            </div>
+                                            <div class="tree-node tree-file" data-image="2">
+                                                <div class="node-label">
+                                                    <span class="node-icon">📄</span>
+                                                    <span>PhanQuyenBaoMat.png</span>
+                                                </div>
+                                            </div>
+                                            <div class="tree-node tree-file" data-image="3">
+                                                <div class="node-label">
+                                                    <span class="node-icon">📄</span>
+                                                    <span>ThuocTinhChiaSe.png</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tree-node tree-folder">
+                                        <div class="node-label">
+                                            <span class="node-icon">📁</span>
+                                            <span>Tuan_2_InformationResearch</span>
+                                        </div>
+                                        <div class="node-children">
+                                            <div class="tree-node tree-file" data-image="4">
+                                                <div class="node-label">
+                                                    <span class="node-icon">📄</span>
+                                                    <span>ChienLuocTimKiem.png</span>
+                                                </div>
+                                            </div>
+                                            <div class="tree-node tree-file" data-image="5">
+                                                <div class="node-label">
+                                                    <span class="node-icon">📄</span>
+                                                    <span>BangNguonHocThuat.csv</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tree-node tree-folder">
+                                        <div class="node-label">
+                                            <span class="node-icon">📁</span>
+                                            <span>Tuan_3_AICNN</span>
+                                        </div>
+                                        <div class="node-children">
+                                            <div class="tree-node tree-file" data-image="6">
+                                                <div class="node-label">
+                                                    <span class="node-icon">📄</span>
+                                                    <span>cnn_classifier.py</span>
+                                                </div>
+                                            </div>
+                                            <div class="tree-node tree-file" data-image="7">
+                                                <div class="node-label">
+                                                    <span class="node-icon">📄</span>
+                                                    <span>BaoCao_Academic.tex</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tree-node tree-folder">
+                                        <div class="node-label">
+                                            <span class="node-icon">📁</span>
+                                            <span>Tuan_4_Collaboration</span>
+                                        </div>
+                                        <div class="node-children">
+                                            <div class="tree-node tree-file" data-image="8">
+                                                <div class="node-label">
+                                                    <span class="node-icon">📄</span>
+                                                    <span>TrelloWorkspace_Team.png</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tree-node tree-file" data-image="9">
+                                        <div class="node-label">
+                                            <span class="node-icon">📄</span>
+                                            <span>HuongDanSuDung.txt</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Screenshot Viewer -->
+                    <div class="glass-card screenshot-viewer-card">
+                        <div class="screenshot-placeholder" id="viewer-placeholder">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="m2.25 15.75 5.159-5.159a2.25 2.25 0 0 1 3.182 0l5.159 5.159m-1.5-1.5 1.409-1.409a2.25 2.25 0 0 1 3.182 0l2.909 2.909m-18 3.75h16.5a1.5 1.5 0 0 0 1.5-1.5V6a1.5 1.5 0 0 0-1.5-1.5H3.75A1.5 1.5 0 0 0 2.25 6v12a1.5 1.5 0 0 0 1.5 1.5Zm10.5-11.25h.008v.008h-.008V8.25Zm.375 0a.375 0 1 1-.75 0 .375 0 0 1 .75 0Z"/></svg>
+                            <p>Chọn một tệp tin hình ảnh (.png) hoặc tài liệu (.txt) trong cây thư mục bên trái để hiển thị minh chứng trực quan.</p>
+                        </div>
+                        
+                        <div class="active-screenshot-display" id="viewer-display">
+                            <div class="active-image-container" id="zoom-img-container" title="Click để phóng to ảnh">
+                                <img id="active-screenshot-img" src="" alt="Screenshot">
+                            </div>
+                            <div class="active-image-title" id="active-screenshot-title">Tên ảnh chụp màn hình</div>
+                            <div class="active-image-desc" id="active-screenshot-desc">Mô tả chi tiết hoạt động tương ứng của Tiến trong bài tập tuần 1.</div>
+                        </div>
+
+                        <!-- Thumbnails strip -->
+                        <div style="margin-top: auto;">
+                            <div style="font-size: 0.8rem; font-weight: 700; color: var(--text-muted); margin-bottom: 0.5rem; text-transform: uppercase;">Tất cả ảnh chụp (14)</div>
+                            <div class="image-thumbnails-strip" id="tuan1-thumb-strip">
+                                <!-- Generated by JS -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ==========================================
+                 SECTION: TUAN 2 (INFORMATION SEARCH)
+                 ========================================== -->
+            <section id="sec-tuan2" class="page-section">
+                <div class="section-header">
+                    <h1 class="section-title">Tuần 2: Khai thác & Đánh giá Nguồn tin Học thuật</h1>
+                    <p class="section-subtitle">Chủ đề nghiên cứu: Ứng dụng Học sâu (Deep Learning) trong phát hiện Mã độc (Malware)</p>
+                </div>
+
+                <div class="glass-card search-intro-box">
+                    <h3 style="font-family: var(--font-heading); margin-bottom: 0.8rem; color: var(--primary);">1. Chiến lược tìm kiếm học thuật</h3>
+                    <p style="font-size: 0.95rem; line-height: 1.5; color: var(--text-muted); margin-bottom: 1rem;">
+                        Để tiếp cận các tài liệu bảo mật và học sâu chất lượng cao, sinh viên đã xây dựng chiến lược tìm kiếm thông tin bằng cách kết hợp cơ sở dữ liệu quốc tế như **IEEE Xplore**, **ACM Digital Library**, **arXiv**, và các hội nghị uy tín hàng đầu về an ninh mạng như **NDSS**.
+                    </p>
+                    <div class="operators-container">
+                        <div class="operator-badge">
+                            <span class="operator-code">"deep learning malware"</span>
+                            <span class="operator-desc">Tìm kiếm cụm từ khóa chính xác</span>
+                        </div>
+                        <div class="operator-badge">
+                            <span class="operator-code">site:arxiv.org</span>
+                            <span class="operator-desc">Giới hạn tìm trong thư viện arXiv</span>
+                        </div>
+                        <div class="operator-badge">
+                            <span class="operator-code">filetype:pdf</span>
+                            <span class="operator-desc">Lọc định dạng tài liệu PDF khoa học</span>
+                        </div>
+                        <div class="operator-badge">
+                            <span class="operator-code">AND / OR</span>
+                            <span class="operator-desc">Liên kết các từ khóa phức tạp</span>
+                        </div>
+                    </div>
+                    <p style="font-size: 0.85rem; font-weight: 500; font-family: var(--font-code); color: var(--secondary); background: var(--bg-input); padding: 0.8rem; border-radius: 8px;">
+                        Ví dụ truy vấn nâng cao: <code>"deep learning" AND (malware OR "static analysis") site:arxiv.org filetype:pdf</code>
+                    </p>
+                </div>
+
+                <div class="glass-card">
+                    <h3 style="font-family: var(--font-heading); margin-bottom: 0.5rem; color: var(--secondary);">2. Bảng Tổng hợp & Đánh giá 10 Nguồn tin theo Thang điểm Tin cậy</h3>
+                    <p style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 1.2rem;">Dữ liệu thực tế được chấm điểm dựa trên uy tín tác giả, tính khách quan của nhà xuất bản, phương pháp nghiên cứu và tính cập nhật.</p>
+                    
+                    <div class="table-responsive">
+                        <table class="sources-table" id="tuan2-sources-table">
+                            <thead>
+                                <tr>
+                                    <th style="width: 50px; text-align: center;">STT</th>
+                                    <th style="width: 180px;">Nguồn tài liệu</th>
+                                    <th style="width: 140px;">Phân loại</th>
+                                    <th>Phân tích & Đánh giá độ tin cậy</th>
+                                    <th style="width: 80px; text-align: center;">Điểm</th>
+                                    <th style="width: 100px; text-align: center;">Xếp hạng</th>
+                                    <th style="width: 90px; text-align: center;">Trích dẫn</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <!-- Generated by JS -->
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ==========================================
+                 SECTION: TUAN 3 (PROMPT & CNN)
+                 ========================================== -->
+            <section id="sec-tuan3" class="page-section">
+                <div class="section-header">
+                    <h1 class="section-title">Tuần 3: Prompt Engineering & Thiết kế Mạng CNN</h1>
+                    <p class="section-subtitle">Ứng dụng AI tối ưu hóa mô hình học sâu phân loại hình ảnh và viết báo cáo học thuật bằng LaTeX</p>
+                </div>
+
+                <!-- Prompt engineering comparisons -->
+                <div class="glass-card" style="margin-bottom: 1.8rem;">
+                    <h3 style="font-family: var(--font-heading); margin-bottom: 1.2rem; color: var(--primary);">1. Kỹ thuật Prompt Engineering áp dụng</h3>
+                    <p style="font-size: 0.95rem; line-height: 1.5; color: var(--text-muted); margin-bottom: 1.2rem;">
+                        Để có được mã nguồn PyTorch CNN tối ưu và mẫu báo cáo LaTeX chuẩn IEEE khoa học, sinh viên đã áp dụng kỹ thuật **Prompt Engineering với vai trò rõ ràng, bối cảnh nhiệm vụ và ràng buộc chặt chẽ**. Hãy xem sự khác biệt dưới đây:
+                    </p>
+                    <div class="prompts-comparison">
+                        <div class="prompt-box initial">
+                            <span class="prompt-tag">Ban đầu</span>
+                            <h4>Prompt thô, ngắn</h4>
+                            <p>"Viết code python xây dựng một mạng nơ-ron tích chập CNN phân loại hình ảnh sử dụng PyTorch."</p>
+                            <div class="prompt-meta">
+                                <span>Rủi ro: Code dễ lỗi, thiếu cấu trúc chuẩn, không giải quyết được overfitting.</span>
+                            </div>
+                        </div>
+                        <div class="prompt-box improved">
+                            <span class="prompt-tag">Cải tiến</span>
+                            <h4>Prompt áp dụng framework Role-Context-Task-Constraint</h4>
+                            <p>"Bạn là một AI Researcher chuyên nghiệp về Computer Vision. Hãy thiết kế một lớp mạng CNN bằng PyTorch gồm 3 tầng conv, tích hợp Batch Normalization và Dropout. Ràng buộc: Mã nguồn phải tường minh, có chú thích chi tiết bằng tiếng Việt và tuân thủ chuẩn PEP8."</p>
+                            <div class="prompt-meta">
+                                <strong style="color: var(--secondary);">Kết quả: Sinh ra code AdvancedCNN có Batch Normalization, Dropout(0.5) và StepLR.</strong>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Code Viewer IDE -->
+                <div class="tuan3-tabs">
+                    <button class="tuan3-tab-btn active" data-code="python">cnn_classifier.py (Mã nguồn PyTorch CNN)</button>
+                    <button class="tuan3-tab-btn" data-code="latex">BaoCao_Academic.tex (Mã nguồn LaTeX Báo cáo)</button>
+                </div>
+
+                <div class="code-editor-card">
+                    <div class="editor-header">
+                        <div class="editor-dots">
+                            <span class="editor-dot red"></span>
+                            <span class="editor-dot yellow"></span>
+                            <span class="editor-dot green"></span>
+                        </div>
+                        <div class="editor-title" id="editor-filename">cnn_classifier.py</div>
+                        <div class="editor-actions">
+                            <button class="editor-btn" id="copy-code-btn" title="Sao chép toàn bộ code">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="14" height="14" x="8" y="8" rx="2" ry="2"/><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"/></svg>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="editor-body">
+                        <!-- Code blocks populated by JS -->
+                        <pre class="code-block active" id="code-python"></pre>
+                        <pre class="code-block" id="code-latex"></pre>
+                    </div>
+                </div>
+
+                <!-- Performance Gains & Overfitting solutions -->
+                <div class="glass-card">
+                    <h3 style="font-family: var(--font-heading); margin-bottom: 1rem; color: var(--secondary);">2. Giải pháp Overfitting & Hiệu suất phối hợp Multi-AI</h3>
+                    
+                    <div class="efficiency-metrics">
+                        <div class="metrics-table-wrapper">
+                            <h4 style="font-family: var(--font-heading); font-size: 1rem; margin-bottom: 0.8rem;">Bảng so sánh hiệu suất (Giờ làm việc)</h4>
+                            <div class="table-responsive">
+                                <table class="sources-table" style="font-size: 0.8rem; margin: 0;">
+                                    <thead>
+                                        <tr>
+                                            <th>Giai đoạn thực hiện</th>
+                                            <th style="text-align: center;">Truyền thống</th>
+                                            <th style="text-align: center;">Kết hợp AI</th>
+                                            <th style="text-align: center; color: var(--secondary);">Hiệu suất tăng</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>Thiết kế & Lập trình Code PyTorch</td>
+                                            <td style="text-align: center;">8.0 giờ</td>
+                                            <td style="text-align: center; font-weight: 600;">2.0 giờ</td>
+                                            <td style="text-align: center; font-weight: 700; color: var(--secondary);">75%</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Tra cứu tài liệu học thuật khoa học</td>
+                                            <td style="text-align: center;">5.0 giờ</td>
+                                            <td style="text-align: center; font-weight: 600;">1.5 giờ</td>
+                                            <td style="text-align: center; font-weight: 700; color: var(--secondary);">70%</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Soạn thảo và định dạng LaTeX</td>
+                                            <td style="text-align: center;">6.0 giờ</td>
+                                            <td style="text-align: center; font-weight: 600;">2.0 giờ</td>
+                                            <td style="text-align: center; font-weight: 700; color: var(--secondary);">66%</td>
+                                        </tr>
+                                        <tr style="background: rgba(16, 185, 129, 0.05);">
+                                            <td style="font-weight: 700;">Tổng cộng toàn bộ nhiệm vụ</td>
+                                            <td style="text-align: center; font-weight: 700;">19.0 giờ</td>
+                                            <td style="text-align: center; font-weight: 700; color: var(--primary);">5.5 giờ</td>
+                                            <td style="text-align: center; font-weight: 800; color: var(--secondary);">Giảm 71%</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        <div class="metrics-text">
+                            <div class="metric-highlight">Độ chính xác tăng từ 72% lên 81.5%</div>
+                            <p style="font-size: 0.9rem; line-height: 1.5; color: var(--text-muted); margin-bottom: 0.8rem;">
+                                <strong>Chiến lược xử lý Overfitting (Gemini đề xuất):</strong> Trong thực nghiệm ban đầu, độ chính xác tập Train đạt 98% nhưng Validation chỉ đạt 72%. Sau khi thực hiện truy vấn phản biện AI, Gemini đề xuất tích hợp thêm lớp <code>nn.Dropout(p=0.5)</code> trước ngõ ra tuyến tính và sử dụng bộ điều khiển tốc độ học <code>StepLR</code> để giảm LR đi một nửa sau mỗi 5 epochs. Kết quả độ chính xác tập Valid tăng mạnh và ổn định ở mức <strong>81.5%</strong>.
+                            </p>
+                            <p style="font-size: 0.8rem; color: var(--text-muted);">
+                                *Bài học kinh nghiệm: AI cung cấp khung thuật toán rất nhanh nhưng con người cần kiểm tra các thư viện cập nhật để tránh lỗi hàm cũ (bị deprecated) và kiểm duyệt tính đúng đắn của logic.*
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ==========================================
+                 SECTION: TUAN 4 (TEAMWORK COLLABORATION)
+                 ========================================== -->
+            <section id="sec-tuan4" class="page-section">
+                <div class="section-header">
+                    <h1 class="section-title">Tuần 4: Công cụ Cộng tác & Hợp tác Trực tuyến</h1>
+                    <p class="section-subtitle">Chủ đề dự án nhóm: Xây dựng bài thuyết trình ứng dụng quản lý chi tiêu cho sinh viên</p>
+                </div>
+
+                <div class="glass-card" style="margin-bottom: 1.8rem;">
+                    <h3 style="font-family: var(--font-heading); margin-bottom: 0.8rem; color: var(--primary);">1. Vai trò cá nhân & Sự kết hợp 4 công cụ trực tuyến</h3>
+                    <p style="font-size: 0.95rem; line-height: 1.5; color: var(--text-muted); margin-bottom: 1rem;">
+                        Trong dự án nhóm nhỏ, tôi phụ trách xây dựng tài liệu về **Nhu cầu sinh viên, các tính năng cốt lõi của ứng dụng chi tiêu** và quản lý hệ thống lưu trữ tài nguyên. Sự phối hợp được diễn ra đồng bộ qua: **Trello** (Quản lý tiến độ), **Google Docs** (Soạn thảo văn bản real-time), **Google Drive** (Lưu trữ và chia sẻ file khoa học), và **Discord** (Kênh giao tiếp nhanh).
+                    </p>
+                    <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 1rem;">
+                        <div style="background: var(--bg-input); padding: 0.8rem; border-radius: 10px; border-top: 3px solid #a855f7;">
+                            <strong style="font-size: 0.85rem; display: block; margin-bottom: 0.2rem;">Trello (Nhiệm vụ)</strong>
+                            <span style="font-size: 0.75rem; color: var(--text-muted);">Theo dõi, gán nhãn độ ưu tiên, cập nhật tiến trình thẻ việc.</span>
+                        </div>
+                        <div style="background: var(--bg-input); padding: 0.8rem; border-radius: 10px; border-top: 3px solid #3b82f6;">
+                            <strong style="font-size: 0.85rem; display: block; margin-bottom: 0.2rem;">Google Docs (Viết chung)</strong>
+                            <span style="font-size: 0.75rem; color: var(--text-muted);">Viết trực tiếp, bình luận góp ý và phản hồi lịch sử văn bản.</span>
+                        </div>
+                        <div style="background: var(--bg-input); padding: 0.8rem; border-radius: 10px; border-top: 3px solid #10b981;">
+                            <strong style="font-size: 0.85rem; display: block; margin-bottom: 0.2rem;">Google Drive (Lưu trữ)</strong>
+                            <span style="font-size: 0.75rem; color: var(--text-muted);">Tổ chức thư mục khoa học, quy tắc đặt tên tệp rõ ràng.</span>
+                        </div>
+                        <div style="background: var(--bg-input); padding: 0.8rem; border-radius: 10px; border-top: 3px solid #f59e0b;">
+                            <strong style="font-size: 0.85rem; display: block; margin-bottom: 0.2rem;">Discord (Trao đổi)</strong>
+                            <span style="font-size: 0.75rem; color: var(--text-muted);">Thảo luận nhanh, chốt lịch họp, giải quyết bất đồng ý kiến.</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Kanban simulation -->
+                <div class="glass-card" style="margin-bottom: 1.8rem;">
+                    <h3 style="font-family: var(--font-heading); margin-bottom: 1rem; color: var(--secondary);">2. Mô phỏng Bảng Kanban Dự án của Lê Đức Tiến</h3>
+                    <p style="font-size: 0.8rem; color: var(--text-muted); margin-bottom: 1.2rem;">Click vào các thẻ việc dưới đây để xem chi tiết mô tả công việc, người tham gia và minh chứng hành động tương tác.</p>
+                    
+                    <div class="kanban-board" id="kanban-board-container">
+                        <!-- Columns populated by JS -->
+                    </div>
+                </div>
+
+                <!-- Timeline 7 days -->
+                <div class="glass-card">
+                    <h3 style="font-family: var(--font-heading); margin-bottom: 1rem; color: var(--accent);">3. Nhật ký tiến độ 7 ngày phối hợp nhóm</h3>
+                    <p style="font-size: 0.8rem; color: var(--text-muted); margin-bottom: 0.5rem;">Nhấp chuột vào các nút cột mốc từ Ngày 1 đến Ngày 7 để xem nhật ký công việc chi tiết của Tiến.</p>
+                    
+                    <div class="timeline-container">
+                        <div class="timeline-line"></div>
+                        <div class="timeline-progress" id="timeline-progress-bar"></div>
+                        <div class="timeline-items" id="timeline-milestones">
+                            <!-- Generated by JS -->
+                        </div>
+                    </div>
+
+                    <div class="timeline-detail-box" id="timeline-detail-box">
+                        <div class="timeline-detail-title" id="timeline-title">Ngày 1: Khởi động</div>
+                        <div class="timeline-detail-content" id="timeline-content">Nhóm thống nhất chủ đề và phân công nhiệm vụ. Bắt đầu thiết lập môi trường Trello, Docs, Drive.</div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ==========================================
+                 SECTION: TUAN 5 (GEN AI CREATION)
+                 ========================================== -->
+            <section id="sec-tuan5" class="page-section">
+                <div class="section-header">
+                    <h1 class="section-title">Tuần 5: Ứng dụng AI Tạo sinh Sáng tạo Nội dung số</h1>
+                    <p class="section-subtitle">Chủ đề sản phẩm: Infographic 1 trang "AI hỗ trợ học tập an toàn và hiệu quả"</p>
+                </div>
+
+                <div class="intro-grid">
+                    <!-- Design notes and log -->
+                    <div class="glass-card" style="display: flex; flex-direction: column; justify-content: space-between;">
+                        <div>
+                            <h3 style="font-family: var(--font-heading); margin-bottom: 0.8rem; color: var(--primary);">1. Quy trình Phối hợp 3 Công cụ Generative AI</h3>
+                            <p style="font-size: 0.9rem; line-height: 1.5; color: var(--text-muted); margin-bottom: 1rem;">
+                                Trong dự án thiết kế Infographic, sinh viên đã xây dựng quy trình kết hợp khép kín: dùng **ChatGPT** lập kế hoạch và soạn thảo văn bản nháp, sử dụng **DALL-E** tạo hình ảnh minh họa trung tâm, và dùng **Canva AI** để phối màu, bố cục và tối ưu hóa kiểu chữ.
+                            </p>
+                            <p style="font-size: 0.9rem; line-height: 1.5; color: var(--text-muted); margin-bottom: 1.2rem;">
+                                *Điểm cốt lõi: Để tránh nội dung chung chung hoặc thiết kế rập khuôn của AI, sinh viên luôn đóng vai trò kiểm duyệt (Human-in-the-loop) để rút gọn chữ, chỉnh lại độ tương phản màu và thay đổi vị trí bố cục.*
+                            </p>
+                        </div>
+                        <div style="background: rgba(99, 102, 241, 0.05); border: 1px solid var(--border-color); padding: 1rem; border-radius: 12px;">
+                            <strong style="color: var(--primary); display: block; font-size: 0.9rem; margin-bottom: 0.25rem;">Minh bạch học thuật & Đạo đức</strong>
+                            <span style="font-size: 0.8rem; color: var(--text-muted); line-height: 1.4; display: block;">
+                                Phải ghi rõ công cụ hỗ trợ và phạm vi chỉnh sửa. Không sao chép nguyên xi sản phẩm của AI nhằm tôn trọng tính nguyên gốc và chịu trách nhiệm cao nhất về nội dung.
+                            </span>
+                        </div>
+                    </div>
+
+                    <!-- Infographic Display Card -->
+                    <div class="glass-card" style="text-align: center;">
+                        <h3 style="font-family: var(--font-heading); margin-bottom: 1rem; color: var(--secondary);">Sản phẩm Infographic hoàn thiện</h3>
+                        <div class="infographic-container">
+                            <div class="infographic-wrapper" id="infographic-t5-wrap">
+                                <img src="assets/tuan5/FinalProduct_Infographic.png" alt="Infographic AI ho tro hoc tap an toan">
+                            </div>
+                        </div>
+                        <p style="font-size: 0.75rem; color: var(--text-muted);">*Nhấp vào ảnh để xem độ phân giải cao phóng to*</p>
+                    </div>
+                </div>
+
+                <div class="glass-card" style="margin-top: 1.8rem;">
+                    <h3 style="font-family: var(--font-heading); margin-bottom: 1rem; color: var(--accent);">2. Nhật ký chi tiết Prompts, kết quả nhận được và phần chỉnh sửa của Tiến</h3>
+                    
+                    <div class="table-responsive">
+                        <table class="sources-table">
+                            <thead>
+                                <tr>
+                                    <th style="width: 130px;">Công cụ AI</th>
+                                    <th style="width: 250px;">Prompt thực tế đã nhập</th>
+                                    <th style="width: 250px;">Đầu ra (kết quả thô) từ AI</th>
+                                    <th>Hoạt động chỉnh sửa cá nhân (Human-in-the-loop)</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><strong>ChatGPT</strong></td>
+                                    <td><code style="font-family: var(--font-code); font-size: 0.75rem;">Hãy viết dàn ý cho infographic 1 trang về việc dùng AI trong học tập, dành cho học sinh, văn phong ngắn gọn và dễ hiểu.</code></td>
+                                    <td style="font-size: 0.8rem; color: var(--text-muted);">Đưa ra dàn ý gồm 5 phần dài: lợi ích, công cụ, quy trình, lưu ý đạo đức, kết luận.</td>
+                                    <td>Rút gọn xuống chỉ còn 3 khối thông tin cốt lõi để bố cục thông thoáng. Bổ sung các ví dụ thực tiễn như: lập dàn ý, tóm tắt bài học, và luyện viết câu để gần gũi với học sinh hơn.</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>DALL-E</strong></td>
+                                    <td><code style="font-family: var(--font-code); font-size: 0.75rem;">Tạo một minh họa dạng infographic nền sáng, chủ đề học tập với AI, có học sinh, laptop, biểu tượng bóng đèn và nhịp màu xanh dương - xanh lá.</code></td>
+                                    <td style="font-size: 0.8rem; color: var(--text-muted);">Tạo ra hình ảnh minh họa mang tính công nghệ và học tập với màu sắc hiện đại.</td>
+                                    <td>Lọc và chọn ảnh có ít chi tiết rối mắt, tăng độ sáng nền để làm nổi bật hình ảnh, đưa vào trung tâm infographic để làm điểm nhấn chính mà không đè lên phần chữ.</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Canva AI</strong></td>
+                                    <td><code style="font-family: var(--font-code); font-size: 0.75rem;">Thiết kế infographic dọc 1 trang, bố cục ba khối, màu xanh dương chủ đạo, chữ dễ đọc, phù hợp bài nộp trên lớp.</code></td>
+                                    <td style="font-size: 0.8rem; color: var(--text-muted);">Gợi ý một số mẫu bố cục (layouts), hỗ trợ đặt văn bản và chèn các icon cơ bản.</td>
+                                    <td>Thay đổi màu sắc sặc sỡ sang tông dịu mắt hơn để tăng tính chuyên nghiệp. Loại bỏ các icon thừa thãi và gia tăng khoảng trắng để bố cục nhìn thông thoáng, dễ đọc trên di động.</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ==========================================
+                 SECTION: TUAN 6 (RESPONSIBLE AI)
+                 ========================================== -->
+            <section id="sec-tuan6" class="page-section">
+                <div class="section-header">
+                    <h1 class="section-title">Tuần 6: Sử dụng AI có Trách nhiệm & Đạo đức Học thuật</h1>
+                    <p class="section-subtitle">Nghiên cứu so sánh chính sách của các trường đại học và xây dựng bộ nguyên tắc cá nhân</p>
+                </div>
+
+                <div class="intro-grid">
+                    <!-- Policy tabs comparison -->
+                    <div class="glass-card">
+                        <h3 style="font-family: var(--font-heading); margin-bottom: 1rem; color: var(--primary);">1. So sánh chính sách quản lý AI học thuật</h3>
+                        
+                        <div class="policy-tabs">
+                            <button class="policy-tab-btn active" data-policy="ueh">UEH (Trường tham chiếu)</button>
+                            <button class="policy-tab-btn" data-policy="vinuni">VinUniversity</button>
+                            <button class="policy-tab-btn" data-policy="rmit">RMIT Vietnam</button>
+                        </div>
+
+                        <div class="policy-content active" id="policy-ueh">
+                            <strong style="color: var(--secondary); display: block; margin-bottom: 0.5rem;">Đại học Kinh tế TP. Hồ Chí Minh (UEH)</strong>
+                            <p style="color: var(--text-muted); margin-bottom: 0.8rem;">
+                                UEH xem AI là công cụ hỗ trợ nhưng nhấn mạnh tác giả phải hoàn toàn chịu trách nhiệm về tính chính xác và liêm chính của bài nộp. 
+                            </p>
+                            <ul style="padding-left: 1.2rem; color: var(--text-muted); font-size: 0.85rem;">
+                                <li style="margin-bottom: 0.3rem;">Phân biệt rõ AI hỗ trợ (sửa ngữ pháp, dịch thuật) và AI tạo sinh (tạo code, viết ý).</li>
+                                <li style="margin-bottom: 0.3rem;">Yêu cầu bắt buộc phải minh khai: ghi rõ tên AI, mục đích, và phần văn bản có AI hỗ trợ.</li>
+                                <li style="margin-bottom: 0.3rem;">Cấm tuyệt đối hành vi lạm dụng AI để tạo toàn bộ nội dung hoặc ngụy tạo tài liệu, số liệu trích dẫn.</li>
+                            </ul>
+                        </div>
+
+                        <div class="policy-content" id="policy-vinuni">
+                            <strong style="color: var(--secondary); display: block; margin-bottom: 0.5rem;">VinUniversity (VinUni)</strong>
+                            <p style="color: var(--text-muted); margin-bottom: 0.8rem;">
+                                Cho phép sử dụng Generative AI như một đối tác học tập nâng cao nhưng đòi hỏi quy trình kiểm duyệt vô cùng chặt chẽ.
+                            </p>
+                            <ul style="padding-left: 1.2rem; color: var(--text-muted); font-size: 0.85rem;">
+                                <li style="margin-bottom: 0.3rem;">Sinh viên phải công khai chi tiết: tên công cụ, câu lệnh prompt cụ thể đã dùng và cách tích hợp đầu ra của AI vào sản phẩm cuối.</li>
+                                <li style="margin-bottom: 0.3rem;">Bắt buộc thực hiện quy trình đối chiếu dữ liệu thực tế (fact-checking) để tránh lỗi ảo tưởng của AI.</li>
+                                <li style="margin-bottom: 0.3rem;">Sinh viên giữ quyền giải thích sản phẩm nộp của mình trước hội đồng chuyên môn.</li>
+                            </ul>
+                        </div>
+
+                        <div class="policy-content" id="policy-rmit">
+                            <strong style="color: var(--secondary); display: block; margin-bottom: 0.5rem;">RMIT University Vietnam</strong>
+                            <p style="color: var(--text-muted); margin-bottom: 0.8rem;">
+                                Đặt tính liêm chính học thuật vào khung môn học và khuyến khích sinh viên tự bảo vệ quá trình nghiên cứu của mình.
+                            </p>
+                            <ul style="padding-left: 1.2rem; color: var(--text-muted); font-size: 0.85rem;">
+                                <li style="margin-bottom: 0.3rem;">Yêu cầu kiểm tra kỹ lưỡng hướng dẫn môn học (Course Guide) trước khi dùng AI cho từng nhiệm vụ riêng biệt.</li>
+                                <li style="margin-bottom: 0.3rem;">Khuyến khích sinh viên lưu giữ lại các bản nháp (drafts) và lịch sử chỉnh sửa để làm bằng chứng chứng minh quá trình tự học tập.</li>
+                                <li style="margin-bottom: 0.3rem;">Đưa ra cảnh báo kỷ luật nghiêm khắc đối với việc nộp các sản phẩm do AI sinh ra cho các phần thi/nhiệm vụ không cho phép dùng AI.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Personal ethical rules -->
+                    <div class="glass-card">
+                        <h3 style="font-family: var(--font-heading); margin-bottom: 1rem; color: var(--secondary);">2. Bộ Nguyên tắc Cá nhân khi dùng AI</h3>
+                        <p style="font-size: 0.8rem; color: var(--text-muted); margin-bottom: 1rem;">Cam kết sử dụng AI có đạo đức học thuật. Hãy tích chọn để xác nhận cam kết thực hiện.</p>
+                        
+                        <ul class="rules-checklist" id="rules-checklist">
+                            <li>
+                                <input type="checkbox" id="rule1">
+                                <div class="rule-text-container">
+                                    <span class="rule-number">Nguyên tắc 1</span>
+                                    <span class="rule-desc">Chỉ dùng AI khi nhiệm vụ cho phép hoặc không bị cấm rõ ràng.</span>
+                                </div>
+                            </li>
+                            <li>
+                                <input type="checkbox" id="rule2">
+                                <div class="rule-text-container">
+                                    <span class="rule-number">Nguyên tắc 2</span>
+                                    <span class="rule-desc">Luôn kiểm tra lại thông tin, mã nguồn bằng nguồn học thuật đáng tin cậy.</span>
+                                </div>
+                            </li>
+                            <li>
+                                <input type="checkbox" id="rule3">
+                                <div class="rule-text-container">
+                                    <span class="rule-number">Nguyên tắc 3</span>
+                                    <span class="rule-desc">Khai báo công cụ AI, câu lệnh prompt và phạm vi hỗ trợ một cách minh bạch.</span>
+                                </div>
+                            </li>
+                            <li>
+                                <input type="checkbox" id="rule4">
+                                <div class="rule-text-container">
+                                    <span class="rule-number">Nguyên tắc 4</span>
+                                    <span class="rule-desc">Không nộp nguyên văn đầu ra thô của AI như là sản phẩm tự làm.</span>
+                                </div>
+                            </li>
+                            <li>
+                                <input type="checkbox" id="rule5">
+                                <div class="rule-text-container">
+                                    <span class="rule-number">Nguyên tắc 5</span>
+                                    <span class="rule-desc">Giữ phần tư duy logic, lập luận cốt lõi và kết luận do bản thân tự chịu trách nhiệm.</span>
+                                </div>
+                            </li>
+                            <li>
+                                <input type="checkbox" id="rule6">
+                                <div class="rule-text-container">
+                                    <span class="rule-number">Nguyên tắc 6</span>
+                                    <span class="rule-desc">Không nhập thông tin cá nhân bảo mật hoặc tài liệu chưa được phép chia sẻ lên AI công cộng.</span>
+                                </div>
+                            </li>
+                        </ul>
+
+                        <div class="integrity-badge-container" id="integrity-badge-container">
+                            <span class="integrity-badge">✓ Đã cam kết Liêm chính học thuật</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="glass-card" style="margin-top: 1.8rem; text-align: center;">
+                    <h3 style="font-family: var(--font-heading); margin-bottom: 1rem; color: var(--accent);">Infographic: Sử dụng AI có trách nhiệm</h3>
+                    <div class="infographic-container">
+                        <div class="infographic-wrapper" id="infographic-t6-wrap" style="max-width: 440px;">
+                            <img src="assets/tuan6/infographic_ai_ethical_use.png" alt="Infographic Su dung AI co trach nhiem">
+                        </div>
+                    </div>
+                    <p style="font-size: 0.75rem; color: var(--text-muted);">*Nhấp vào ảnh để xem độ phân giải cao phóng to*</p>
+                </div>
+            </section>
+
+            <!-- ==========================================
+                 SECTION: CONCLUSION & REFLECTION
+                 ========================================== -->
+            <section id="sec-conclusion" class="page-section">
+                <div class="section-header">
+                    <h1 class="section-title">Tổng kết & Đánh giá Hành trình</h1>
+                    <p class="section-subtitle">Tự phản biện về trải nghiệm xây dựng Portfolio và các bài học tích lũy</p>
+                </div>
+
+                <div class="conclusion-cards">
+                    <!-- Reflection Text -->
+                    <div class="glass-card">
+                        <div class="reflection-item">
+                            <h4>Trải nghiệm xây dựng Digital Portfolio</h4>
+                            <p>
+                                Quá trình tổng hợp sản phẩm từ tuần 1 đến tuần 6 giúp tôi nhìn nhận lại toàn bộ chặng đường học tập. Việc thiết kế trang web này giúp tôi thực hành tích hợp đa phương tiện, chuyển đổi các tài liệu thô thành giao diện trực quan và tối ưu trải nghiệm người dùng (UX). Đây không chỉ là bài nộp mà còn là công cụ đắc lực giới thiệu bản thân trong tương lai.
+                            </p>
+                        </div>
+                        <div class="reflection-item">
+                            <h4>Kiến thức & Kỹ năng quan trọng nhất đã tích lũy</h4>
+                            <p>
+                                Tôi đã làm chủ được quy trình phối hợp Multi-AI để tăng tốc nghiên cứu khoa học. Kỹ năng thiết lập cấu trúc tệp giúp tổ chức cuộc sống số ngăn nắp. Việc nghiên cứu sâu về học sâu phát hiện mã độc tạo động lực to lớn cho định hướng nghiên cứu An toàn thông tin sau này. Kỹ năng cộng tác trực tuyến giúp tối ưu hóa làm việc nhóm trong tương lai.
+                            </p>
+                        </div>
+                        <div class="reflection-item">
+                            <h4>Điểm tâm đắc nhất và những Thách thức đã vượt qua</h4>
+                            <p>
+                                Điểm tâm đắc nhất là việc áp dụng thành công mô hình Human-in-the-loop: kiểm soát chặt chẽ AI để tối ưu hóa độ chính xác mô hình CNN PyTorch và tạo các Infographic chất lượng cao. Thách thức lớn nhất là việc phải chuyển đổi linh hoạt giữa các công cụ trong làm việc nhóm và xử lý lỗi xung đột cú pháp thư viện, tuy nhiên kỷ luật làm việc đã giúp giải quyết triệt để.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Visual Summary / Quote -->
+                    <div class="glass-card" style="display: flex; flex-direction: column; justify-content: center; background: linear-gradient(135deg, rgba(16, 185, 129, 0.04) 0%, rgba(99, 102, 241, 0.04) 100%), var(--bg-card);">
+                        <blockquote style="font-size: 1.2rem; font-style: italic; line-height: 1.6; border-left: 4px solid var(--primary); padding-left: 1.5rem; margin-bottom: 1.5rem; color: var(--text-main);">
+                            "Công nghệ số và Trí tuệ nhân tạo không phải là đường tắt để thay thế tư duy, mà là động cơ phản lực giúp con người bay cao hơn khi được dẫn dắt bằng kỷ luật và sự minh bạch đạo đức."
+                        </blockquote>
+                        <div style="font-weight: 700; font-family: var(--font-heading); color: var(--primary);">Lê Đức Tiến</div>
+                        <div style="font-size: 0.8rem; color: var(--text-muted);">Sinh viên K70i-CS6, UET-VNU</div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ==========================================
+                 SECTION: DOWNLOADS
+                 ========================================== -->
+            <section id="sec-downloads" class="page-section">
+                <div class="section-header">
+                    <h1 class="section-title">Trung tâm Tải xuống Tài nguyên</h1>
+                    <p class="section-subtitle">Tải về các tệp báo cáo chi tiết và gói ZIP nộp bài gốc từ tuần 1 đến tuần 6</p>
+                </div>
+
+                <div class="download-grid">
+                    <!-- Tuan 1 -->
+                    <div class="glass-card download-card">
+                        <div class="download-card-header">
+                            <div class="download-icon">📂</div>
+                            <div class="download-info">
+                                <h4>Gói bài tập Tuần 1</h4>
+                                <span>Định dạng: .zip | Dung lượng: 4.7 MB</span>
+                            </div>
+                        </div>
+                        <a href="assets/zips/Tuan1.zip" class="download-btn" download>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" x2="12" y1="15" y2="3"/></svg>
+                            Tải xuống gói gốc
+                        </a>
+                    </div>
+
+                    <!-- Tuan 2 -->
+                    <div class="glass-card download-card">
+                        <div class="download-card-header">
+                            <div class="download-icon">🔍</div>
+                            <div class="download-info">
+                                <h4>Gói bài tập Tuần 2</h4>
+                                <span>Định dạng: .zip | Dung lượng: 32 KB</span>
+                            </div>
+                        </div>
+                        <a href="assets/zips/Tuan2.zip" class="download-btn" download>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" x2="12" y1="15" y2="3"/></svg>
+                            Tải xuống gói gốc
+                        </a>
+                    </div>
+
+                    <!-- Tuan 3 -->
+                    <div class="glass-card download-card">
+                        <div class="download-card-header">
+                            <div class="download-icon">🤖</div>
+                            <div class="download-info">
+                                <h4>Gói bài tập Tuần 3</h4>
+                                <span>Định dạng: .zip | Dung lượng: 74 KB</span>
+                            </div>
+                        </div>
+                        <a href="assets/zips/Tuan3.zip" class="download-btn" download>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" x2="12" y1="15" y2="3"/></svg>
+                            Tải xuống gói gốc
+                        </a>
+                    </div>
+
+                    <!-- Tuan 4 -->
+                    <div class="glass-card download-card">
+                        <div class="download-card-header">
+                            <div class="download-icon">👥</div>
+                            <div class="download-info">
+                                <h4>Gói bài tập Tuần 4</h4>
+                                <span>Định dạng: .zip | Dung lượng: 5.0 MB</span>
+                            </div>
+                        </div>
+                        <a href="assets/zips/Tuan4.zip" class="download-btn" download>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" x2="12" y1="15" y2="3"/></svg>
+                            Tải xuống gói gốc
+                        </a>
+                    </div>
+
+                    <!-- Tuan 5 -->
+                    <div class="glass-card download-card">
+                        <div class="download-card-header">
+                            <div class="download-icon">🎨</div>
+                            <div class="download-info">
+                                <h4>Gói bài tập Tuần 5</h4>
+                                <span>Định dạng: .zip | Dung lượng: 1.5 MB</span>
+                            </div>
+                        </div>
+                        <a href="assets/zips/Tuan%205.zip" class="download-btn" download>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" x2="12" y1="15" y2="3"/></svg>
+                            Tải xuống gói gốc
+                        </a>
+                    </div>
+
+                    <!-- Tuan 6 -->
+                    <div class="glass-card download-card">
+                        <div class="download-card-header">
+                            <div class="download-icon">🛡️</div>
+                            <div class="download-info">
+                                <h4>Gói bài tập Tuần 6</h4>
+                                <span>Định dạng: .zip | Dung lượng: 218 KB</span>
+                            </div>
+                        </div>
+                        <a href="assets/zips/Tuan%206.zip" class="download-btn" download>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" x2="12" y1="15" y2="3"/></svg>
+                            Tải xuống gói gốc
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+    </div>
+
+    <!-- Lightbox Modal container -->
+    <div class="lightbox-modal" id="lightbox-modal">
+        <button class="lightbox-close" id="lightbox-close-btn">&times;</button>
+        <div class="lightbox-content">
+            <img class="lightbox-image" id="lightbox-image" src="" alt="Lightbox Zoom">
+            <div class="lightbox-caption" id="lightbox-caption">Mô tả ảnh chụp màn hình</div>
+        </div>
+    </div>
+
+    <!-- Kanban Details Modal container -->
+    <div class="kanban-modal" id="kanban-modal">
+        <div class="kanban-modal-content">
+            <button class="lightbox-close" id="kanban-close-btn" style="top: 1rem; right: 1rem;">&times;</button>
+            <div class="kanban-modal-title" id="k-modal-title">Tiêu đề nhiệm vụ</div>
+            <div class="kanban-modal-meta">
+                <span>Cột: <strong id="k-modal-col" style="color: var(--primary);">Doing</strong></span>
+                <span>Phân vai: <strong id="k-modal-role" style="color: var(--secondary);">LĐ Tiến</strong></span>
+            </div>
+            <div class="kanban-modal-desc" id="k-modal-desc">
+                Chi tiết nội dung thực hiện...
+            </div>
+        </div>
+    </div>
+
+    <!-- Citation copied Toast Toast -->
+    <div class="toast-notif" id="toast-notif">
+        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+        <span>Đã sao chép trích dẫn Harvard!</span>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

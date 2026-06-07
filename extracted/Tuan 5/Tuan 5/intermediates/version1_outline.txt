@@ -1,0 +1,8 @@
+Phiên bản trung gian 1 - Dàn ý ban đầu
+
+1. Mục tiêu dự án
+2. Dùng ChatGPT để tạo dàn ý
+3. Dùng DALL-E để tạo ảnh minh họa
+4. Dùng Canva AI để hoàn thiện bố cục
+5. So sánh công cụ
+6. Phân tích vai trò AI và đạo đức

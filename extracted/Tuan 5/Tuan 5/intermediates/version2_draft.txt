@@ -1,0 +1,5 @@
+Phiên bản trung gian 2 - Bản nháp nội dung
+
+- Bản nháp dài hơn, sau đó được rút gọn để phù hợp infographic một trang.
+- Bỏ bớt chi tiết lặp lại và tăng các câu ngắn, dễ đọc.
+- Thêm phần mô tả dấu ấn cá nhân để sản phẩm không phụ thuộc hoàn toàn vào AI.

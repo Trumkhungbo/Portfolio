@@ -1,0 +1,13 @@
+{
+  "name": "portfolio-leductien",
+  "version": "1.0.0",
+  "description": "Digital Portfolio of Le Duc Tien - UET-VNU",
+  "main": "index.html",
+  "scripts": {
+    "start": "http-server -p 8000",
+    "dev": "http-server -p 8000"
+  },
+  "dependencies": {
+    "http-server": "^14.1.1"
+  }
+}

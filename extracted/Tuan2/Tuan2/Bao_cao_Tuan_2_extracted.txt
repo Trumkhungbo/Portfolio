@@ -1,0 +1,43 @@
+BÁO CÁO TUẦN 2
+Tìm kiếm và đánh giá thông tin học thuật
+Chủ đề: Ứng dụng học sâu trong phát hiện mã độc
+1. Mục tiêu và phạm vi tìm kiếm
+Báo cáo lựa chọn chủ đề ứng dụng học sâu trong phát hiện mã độc, một hướng nghiên cứu phù hợp với ngành Công nghệ thông tin và An toàn thông tin. Mục tiêu là tìm kiếm, lựa chọn và đánh giá các nguồn học thuật đáng tin cậy để hiểu cách deep learning được dùng trong phân tích tệp thực thi, ứng dụng Android và dữ liệu hành vi liên quan đến mã độc.
+Phạm vi tìm kiếm tập trung vào giai đoạn 2011-2025, ưu tiên các bài báo được công bố tại hội nghị/tạp chí uy tín, sách chuyên khảo nền tảng và nguồn mở có khả năng kiểm chứng. Các từ khóa chính gồm: deep learning malware detection, MalConv, EMBER dataset, Android malware detection, malware image classification và explainable malware detection.
+2. Chiến lược tìm kiếm thông tin
+Cơ sở dữ liệu học thuật: Google Scholar, arXiv, IEEE Xplore, ACM Digital Library và trang hội nghị NDSS.
+Tạp chí khoa học chuyên ngành: ưu tiên IEEE Transactions on Information Forensics and Security và các ấn phẩm về bảo mật.
+Sách chuyên khảo: chọn sách nền tảng về phân tích mã độc và học sâu để giải thích khái niệm.
+Nguồn mở trên internet: dùng repository chính thức và knowledge base uy tín để kiểm chứng dữ liệu, kỹ thuật và bối cảnh thực tế.
+3. Nhận xét và đánh giá tổng hợp
+Các bài báo khoa học có độ tin cậy cao nhất là Raff et al. (2018), Anderson and Roth (2018), Arp et al. (2014) và Yuan, Lu and Xue (2016). Các nguồn này có cơ quan xuất bản hoặc cộng đồng học thuật rõ ràng, mô tả phương pháp nghiên cứu cụ thể, có dữ liệu hoặc thí nghiệm kiểm chứng, và được sử dụng rộng rãi trong các nghiên cứu sau.
+Các sách chuyên khảo như Practical Malware Analysis và Deep Learning không trực tiếp thay thế bài báo mới, nhưng đóng vai trò nền tảng: một bên cung cấp kiến thức phân tích mã độc, bên còn lại cung cấp cơ sở lý thuyết về mạng học sâu. Do đó, chúng được xếp hạng cao về uy tín tác giả và cơ quan xuất bản, nhưng tính cập nhật cần được bổ sung bằng các bài báo mới.
+Các nguồn mở như EMBER GitHub và MITRE ATT&CK có giá trị thực tiễn cao vì minh bạch, dễ kiểm chứng và thường được cập nhật. Tuy nhiên, khi dùng trong báo cáo học thuật, các nguồn này nên được đặt cạnh bài báo hoặc tài liệu chính thức để tránh phụ thuộc vào thông tin chưa qua phản biện học thuật.
+Tổng thể, tập tài liệu đã đáp ứng yêu cầu về số lượng, loại nguồn và độ tin cậy. Nguồn được chọn bao quát bốn nhóm: học thuật, tạp chí/hội nghị chuyên ngành, sách chuyên khảo và nguồn mở internet. Điều này giúp báo cáo có cả nền tảng lý thuyết, bằng chứng thực nghiệm và bối cảnh ứng dụng thực tế.
+4. Bảng tổng hợp và đánh giá nguồn
+Bảng dưới đây tổng hợp 10 tài liệu tham khảo, gồm 6 bài báo khoa học, 2 sách chuyên khảo và 2 nguồn mở internet/dataset. Thang điểm độ tin cậy được chấm từ 1 đến 5 dựa trên tác giả, cơ quan xuất bản, phương pháp, trích dẫn và tính cập nhật.
+5. Danh mục tài liệu tham khảo theo Harvard
+Saxe, J. and Berlin, K. (2015) 'Deep neural network based malware detection using two dimensional binary program features', arXiv. Available at: https://arxiv.org/abs/1508.03096
+Raff, E., Barker, J., Sylvester, J., Brandon, R., Catanzaro, B. and Nicholas, C.K. (2018) 'Malware detection by eating a whole EXE', Proceedings of the AAAI Workshop on Artificial Intelligence for Cyber Security. Available at: https://arxiv.org/abs/1710.09435
+Anderson, H.S. and Roth, P. (2018) 'EMBER: An Open Dataset for Training Static PE Malware Machine Learning Models', arXiv. Available at: https://arxiv.org/abs/1804.04637
+Arp, D., Spreitzenbarth, M., Hubner, M., Gascon, H., Rieck, K. and Siemens CERT (2014) 'DREBIN: Effective and Explainable Detection of Android Malware in Your Pocket', Network and Distributed System Security Symposium. Available at: https://www.ndss-symposium.org/ndss2014/programme/drebin-effective-and-explainable-detection-android-malware-your-pocket/
+Nataraj, L., Karthikeyan, S., Jacob, G. and Manjunath, B.S. (2011) 'Malware images: visualization and automatic classification', Proceedings of the 8th International Symposium on Visualization for Cyber Security. Available at: https://dl.acm.org/doi/10.1145/2016904.2016908
+Yuan, Z., Lu, Y. and Xue, Y. (2016) 'DroidDetector: Android Malware Characterization and Detection Using Deep Learning', IEEE Transactions on Information Forensics and Security, 11(6), pp. 1140-1154. Available at: https://doi.org/10.1109/TIFS.2016.2514541
+Sikorski, M. and Honig, A. (2012) Practical Malware Analysis: The Hands-On Guide to Dissecting Malicious Software. San Francisco: No Starch Press.
+Goodfellow, I., Bengio, Y. and Courville, A. (2016) Deep Learning. Cambridge, MA: MIT Press. Available at: https://www.deeplearningbook.org/
+Elastic (2024) EMBER: Endgame Malware BEnchmark for Research. Available at: https://github.com/elastic/ember
+MITRE (2025) MITRE ATT&CK Enterprise Matrix. Available at: https://attack.mitre.org/
+Sinh viên | Lê Đức Tiến - K70I-CS6
+Trường/Lớp học phần | VNU-UET - UET.A13
+Email | Leductien15052007tb@gmail.com
+STT | Nguồn | Loại | Đánh giá độ tin cậy | Điểm | Xếp hạng
+1 | Saxe and Berlin (2015) | Bài báo khoa học / arXiv | Tác giả thuộc Invincea Labs; phương pháp dùng đặc trưng nhị phân và mạng học sâu; bài có ảnh hưởng sớm trong hướng deep learning cho malware; nguồn arXiv cần đối chiếu thêm vì chưa phải tạp chí phản biện truyền thống. | 4/5 | Cao
+2 | Raff et al. (2018) | Bài báo khoa học / AAAI Workshop | Nhóm tác giả có nền tảng nghiên cứu ML bảo mật; phương pháp MalConv học trực tiếp từ byte của file PE; được trích dẫn rộng; phù hợp để hiểu hướng end-to-end nhưng cần lưu ý chi phí tính toán. | 5/5 | Rất cao
+3 | Anderson and Roth (2018) | Bài báo khoa học / Dataset | Tác giả đến từ Endgame; đóng góp bộ dữ liệu EMBER và baseline rõ ràng; phương pháp mô tả đặc trưng PE minh bạch; rất hữu ích cho tái lập và so sánh mô hình. | 5/5 | Rất cao
+4 | Arp et al. (2014) | Bài báo khoa học / NDSS | NDSS là hội nghị bảo mật uy tín; bài có phương pháp rõ ràng và nhấn mạnh khả năng giải thích; dù tập trung Android, tiêu chí đặc trưng và đánh giá vẫn rất liên quan đến phát hiện mã độc. | 5/5 | Rất cao
+5 | Nataraj et al. (2011) | Bài báo khoa học / VizSec | Bài giới thiệu cách biểu diễn mã độc dưới dạng ảnh để phân loại; phương pháp có tính sáng tạo và được dùng làm nền cho nhiều nghiên cứu CNN sau này; tính cập nhật trung bình vì công bố từ 2011. | 4/5 | Cao
+6 | Yuan, Lu and Xue (2016) | Tạp chí khoa học / IEEE TIFS | IEEE Transactions on Information Forensics and Security là tạp chí chuyên ngành uy tín; bài có phương pháp học sâu và đánh giá thực nghiệm; phù hợp để phân tích tiêu chí tác giả, phương pháp và trích dẫn. | 5/5 | Rất cao
+7 | Sikorski and Honig (2012) | Sách chuyên khảo | Sách của No Starch Press được dùng rộng rãi trong đào tạo phân tích mã độc; không phải nghiên cứu học sâu nhưng rất đáng tin cho nền tảng khái niệm, quy trình phân tích tĩnh và động. | 4/5 | Cao
+8 | Goodfellow, Bengio and Courville (2016) | Sách chuyên khảo | Sách nền tảng về deep learning, tác giả là các nhà nghiên cứu hàng đầu; phù hợp để giải thích CNN, RNN, biểu diễn đặc trưng và overfitting; không chuyên về malware nên dùng làm nền lý thuyết. | 5/5 | Rất cao
+9 | Elastic/Endgame EMBER GitHub (2024) | Nguồn mở internet / Dataset | Kho GitHub chính thức giúp kiểm tra dữ liệu, mã nguồn và cách trích xuất đặc trưng; có tính minh bạch cao nhưng cần dùng cùng bài báo gốc để đảm bảo bối cảnh học thuật. | 4/5 | Cao
+10 | MITRE ATT&CK (2025) | Nguồn mở internet / Knowledge base | MITRE là tổ chức uy tín trong an ninh mạng; ATT&CK cung cấp tri thức cập nhật về kỹ thuật tấn công; không phải bài báo nhưng hữu ích để liên hệ phát hiện mã độc với hành vi thực tế. | 4/5 | Cao

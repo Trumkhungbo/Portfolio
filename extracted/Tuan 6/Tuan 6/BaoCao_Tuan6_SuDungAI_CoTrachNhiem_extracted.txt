@@ -1,0 +1,43 @@
+BÁO CÁO TUẦN 6
+SỬ DỤNG AI CÓ TRÁCH NHIỆM TRONG HỌC THUẬT
+Bài tập: Nghiên cứu chính sách của trường đại học về AI, thực hiện một nhiệm vụ học tập với AI, phân tích đạo đức, xây dựng nguyên tắc cá nhân và thiết kế infographic.
+Trường tham chiếu chính: Đại học Kinh tế Thành phố Hồ Chí Minh (UEH).
+Trường so sánh: VinUniversity và RMIT University Vietnam.
+Sinh viên: Lê Đức Tiến
+Lớp: K70I-CS6
+Mã sinh viên: 25021981
+1. Mở đầu
+Sự phát triển nhanh của AI tạo sinh đang làm thay đổi cách sinh viên tìm tài liệu, lên ý tưởng và hoàn thiện sản phẩm học tập. Tuy nhiên, AI chỉ thực sự hữu ích khi được dùng đúng mục đích: hỗ trợ tư duy, không thay thế tư duy. Báo cáo này tập trung vào ba việc: (1) nghiên cứu chính sách của UEH về AI trong học thuật, (2) mô tả một nhiệm vụ học tập có hỗ trợ bởi AI, (3) phân tích các vấn đề đạo đức và xây dựng bộ nguyên tắc cá nhân để sử dụng AI có trách nhiệm.
+2. Nghiên cứu chính sách của trường về AI
+UEH ban hành quy định riêng về việc kiểm soát đạo văn và sử dụng trí tuệ nhân tạo trong sản phẩm học thuật. Điểm đáng chú ý nhất là UEH xem AI là công cụ hỗ trợ, không thay thế trách nhiệm tư duy, phân tích và sáng tạo của tác giả. Quy định cũng phân biệt rõ AI hỗ trợ (sửa ngôn ngữ, kiểm tra chính tả, dịch thuật) và AI tạo sinh (tạo văn bản, hình ảnh, luận điểm, mã lệnh). Khi sử dụng AI tạo sinh, người học phải minh bạch về công cụ đã dùng, mục đích sử dụng và phần nội dung có sự hỗ trợ của AI. Nếu dùng AI để tạo toàn bộ hoặc phần lớn nội dung mà không có đóng góp đáng kể của tác giả, đó là hành vi vi phạm quy tắc học thuật.
+UEH yêu cầu minh bạch: ghi rõ công cụ AI, mục đích sử dụng và phần nội dung có AI hỗ trợ.
+UEH nhấn mạnh trách nhiệm cá nhân: tác giả phải tự kiểm tra độ chính xác, độ tin cậy và tính liêm chính của bài làm.
+UEH cấm lạm dụng AI để thay thế nhiệm vụ học thuật hoặc tạo dữ liệu giả, trích dẫn giả.
+So với VinUniversity, cách tiếp cận của UEH khá tương đồng ở tinh thần: AI được phép dùng nhưng phải khai báo và không được thay thế vai trò của con người. VinUni còn nêu rõ việc sinh viên phải công khai cách dùng AI, thường bao gồm công cụ, prompt và cách tích hợp đầu ra vào bài làm. VinUni cũng yêu cầu sinh viên kiểm tra fact-check và giữ quyền giải thích sản phẩm nộp. Trong khi đó, RMIT Vietnam nhấn mạnh kiểm tra course guide trước khi dùng AI, khuyến khích giữ bản nháp để chứng minh quá trình làm bài, và cảnh báo không được dùng AI cho nhiệm vụ chưa được cho phép. Từ ba cách tiếp cận này có thể rút ra một nhận định chung: trường đại học không cấm AI hoàn toàn, nhưng đặt trọng tâm vào minh bạch, trách nhiệm và sự phù hợp với mục tiêu học tập.
+3. Thực hiện một nhiệm vụ học tập với AI
+Nhiệm vụ được chọn trong báo cáo này là chuẩn bị nội dung cho một bài thuyết trình ngắn về "Sử dụng AI có trách nhiệm trong học thuật". Tôi sử dụng AI ở hai bước: tạo dàn ý ban đầu và rút gọn nội dung thành dạng phù hợp để trình bày trên slide/infographic.
+Cách đánh giá đầu ra của AI: tôi ưu tiên 3 tiêu chí gồm tính đúng, tính phù hợp với nhiệm vụ và khả năng trình bày ngắn gọn. Những phần AI làm tốt là tạo khung ý nhanh và gợi mở cách diễn đạt. Những phần cần sửa là chỗ quá chung chung, chưa gắn với bối cảnh học tập của sinh viên Việt Nam. Sau khi chỉnh sửa, tôi kết hợp lại thành nội dung cuối cùng cho infographic và báo cáo, đồng thời bổ sung lời giải thích bằng chính ngôn ngữ của mình.
+4. Phân tích các vấn đề đạo đức
+Vấn đề đạo đức đầu tiên là ranh giới giữa hỗ trợ hợp lý và gian lận học thuật. AI được xem là hỗ trợ hợp lý khi nó giúp sinh viên tìm ý tưởng, rút gọn văn bản, kiểm tra ngữ pháp hoặc gợi ý cấu trúc. Nó trở thành gian lận khi sinh viên nộp nguyên văn nội dung do AI tạo ra như sản phẩm của mình, hoặc dùng AI để làm thay cho phần mà môn học muốn đánh giá. Nói cách khác, câu hỏi quan trọng không chỉ là "có dùng AI hay không", mà là "AI đã thay thế phần nào của quá trình học".
+Vấn đề thứ hai là sở hữu trí tuệ và trích dẫn. AI có thể tạo ra câu chữ rất thuyết phục nhưng không luôn đảm bảo nguồn gốc rõ ràng. Nếu đưa ý tưởng, số liệu hoặc cách diễn đạt của AI vào bài nộp mà không ghi chú, sinh viên có thể vô tình vi phạm quy tắc trích dẫn. Vì vậy, minh bạch về công cụ, prompt và mức độ chỉnh sửa là cách bảo vệ tính trung thực của bài làm.
+Vấn đề thứ ba là tác động đến quá trình học tập và phát triển kỹ năng. Nếu dùng AI quá sớm, quá nhiều hoặc không kiểm tra lại, người học dễ bỏ qua giai đoạn tư duy sâu, mất cơ hội rèn cách lập luận và diễn đạt. Ngược lại, khi dùng đúng cách, AI có thể giảm thời gian cho việc cơ học và dành nhiều thời gian hơn cho phân tích, sáng tạo và phản biện. Vì thế, AI không nên được xem là đường tắt, mà là công cụ tăng tốc có điều kiện.
+5. Bộ nguyên tắc cá nhân khi sử dụng AI
+Chỉ dùng AI khi nhiệm vụ cho phép hoặc không cấm rõ ràng.
+Luôn kiểm tra lại thông tin bằng nguồn đáng tin cậy.
+Khai báo công cụ AI, prompt và phạm vi hỗ trợ một cách minh bạch.
+Không nộp nguyên văn đầu ra của AI như sản phẩm của mình.
+Giữ phần tư duy, lập luận và kết luận do bản thân tự chịu trách nhiệm.
+Không nhập dữ liệu riêng tư, dữ liệu nhạy cảm hoặc tài liệu chưa được phép chia sẻ.
+Những nguyên tắc trên liên kết trực tiếp với ba vấn đề đạo đức đã phân tích: tránh gian lận học thuật, tôn trọng sở hữu trí tuệ, và bảo vệ sự phát triển kỹ năng của chính người học. Nếu duy trì các nguyên tắc này, AI sẽ trở thành công cụ hỗ trợ học tập thay vì làm yếu đi năng lực học thuật.
+6. Infographic
+Infographic minh họa được chèn dưới đây và có thể nộp kèm như một sản phẩm riêng.
+7. Kết luận
+AI có thể giúp học tập nhanh hơn, rõ hơn và linh hoạt hơn, nhưng chỉ có giá trị khi người học dùng nó với trách nhiệm. Điểm cốt lõi của việc sử dụng AI trong học thuật không phải là tận dụng càng nhiều càng tốt, mà là biết giới hạn, biết kiểm tra và biết chịu trách nhiệm cho sản phẩm cuối cùng. Bài học quan trọng nhất từ việc nghiên cứu chính sách của trường là: minh bạch và trung thực luôn phải đứng trước sự tiện lợi.
+8. Tài liệu tham khảo
+[1] Đại học Kinh tế Thành phố Hồ Chí Minh (UEH). Quy định về việc kiểm soát, xử lý hành vi đạo văn, sử dụng trí tuệ nhân tạo (AI) trong các sản phẩm học thuật tại UEH.
+[2] VinUniversity. Guidelines on Student Use of Generative Artificial Intelligence.
+[3] RMIT University Vietnam. Academic integrity.
+Ghi chú sử dụng AI: bản báo cáo này là bản nháp học thuật có hỗ trợ AI để gợi ý cấu trúc và diễn đạt; người nộp cần kiểm tra lại nội dung, điều chỉnh theo yêu cầu môn học và bổ sung thông tin cá nhân nếu cần.
+Prompt | Đầu ra AI | Cách chỉnh sửa / tích hợp
+Viết dàn ý 3 phút về AI có trách nhiệm trong học thuật. | AI gợi ý 4 phần: khái niệm, lợi ích, rủi ro, nguyên tắc. | Giữ cấu trúc nhưng thêm ví dụ gần với sinh viên.
+Rút gọn thành 5 ý ngắn, mỗi ý không quá 12 từ. | AI tạo câu ngắn nhưng còn hơi chung. | Chuyển sang câu hành động, dễ đưa vào infographic.
