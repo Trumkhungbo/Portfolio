@@ -1,0 +1,64 @@
+BÁO CÁO CÁ NHÂN
+Ứng dụng công cụ hợp tác trực tuyến trong làm việc nhóm
+Họ và tên: Lê Đức Tiến
+Lớp: UET.A13
+Tên dự án nhóm: Xây dựng bài thuyết trình giới thiệu ứng dụng quản lý chi tiêu cho sinh viên
+I. Mở đầu
+Trong quá trình học tập hiện nay, việc làm việc nhóm không chỉ dừng lại ở việc phân chia nhiệm vụ mà còn đòi hỏi khả năng phối hợp từ xa, theo dõi tiến độ, chia sẻ tài liệu và trao đổi thường xuyên giữa các thành viên. Vì vậy, việc sử dụng các công cụ hợp tác trực tuyến là rất cần thiết để nâng cao hiệu quả làm việc nhóm.
+Trong bài tập này, em tham gia thực hiện một dự án nhóm nhỏ với chủ đề xây dựng bài thuyết trình giới thiệu một ứng dụng quản lý chi tiêu dành cho sinh viên. Bài báo cáo tập trung vào vai trò cá nhân của em trong quá trình làm việc nhóm, cách em sử dụng các công cụ trực tuyến để quản lý công việc, phối hợp với nhóm, đóng góp nội dung và tổ chức tài liệu một cách khoa học.
+Trong suốt thời gian thực hiện, em đã sử dụng 4 công cụ thuộc 4 nhóm chức năng khác nhau, gồm: Trello để quản lý nhiệm vụ, Google Docs để soạn thảo nội dung cộng tác, Google Drive để lưu trữ và chia sẻ tệp, và Discord để giao tiếp, thảo luận với các thành viên trong nhóm. Việc kết hợp các công cụ này giúp em chủ động hơn trong công việc cá nhân, đồng thời hỗ trợ nhóm làm việc có tổ chức và rõ ràng hơn.
+II. Mô tả dự án và vai trò cá nhân
+Dự án nhóm của em có mục tiêu xây dựng một bài thuyết trình ngắn và tài liệu mô tả về ứng dụng quản lý chi tiêu cho sinh viên. Nội dung chính của dự án gồm: xác định nhu cầu người dùng, phân tích tính năng cơ bản của ứng dụng, đề xuất giao diện minh họa và xây dựng bài thuyết trình tổng kết.
+Trong nhóm, vai trò cá nhân của em là:
+Theo dõi và quản lý các nhiệm vụ được giao cho bản thân.
+Phụ trách viết phần nội dung về nhu cầu của sinh viên và các tính năng chính của ứng dụng.
+Tổng hợp và lưu trữ các tài liệu liên quan vào thư mục chung.
+Tham gia thảo luận với nhóm để chỉnh sửa nội dung, thống nhất cách trình bày và hoàn thiện sản phẩm cuối.
+Vai trò này yêu cầu em phải làm việc thường xuyên trên nhiều công cụ khác nhau, không chỉ để hoàn thành phần việc riêng mà còn để phối hợp hiệu quả với các thành viên khác.
+III. Các công cụ đã sử dụng
+1. Trello – Công cụ quản lý dự án và nhiệm vụ
+Trello là công cụ em sử dụng để theo dõi tiến độ công việc cá nhân và công việc chung của nhóm. Sau khi tạo tài khoản, em thiết lập hồ sơ cá nhân đầy đủ và tham gia vào bảng quản lý công việc của nhóm. Bảng Trello được chia thành các cột như To do, Doing, Review và Done để dễ theo dõi trạng thái từng nhiệm vụ.
+Em đã tạo và cập nhật các thẻ công việc liên quan đến phần việc của mình, trong đó có ghi rõ tên nhiệm vụ, thời hạn hoàn thành, checklist các bước nhỏ và nhãn màu để phân loại mức độ ưu tiên. Trong suốt một tuần thực hiện dự án, em cập nhật trạng thái công việc nhiều lần để các thành viên khác có thể theo dõi tiến độ.
+2. Google Docs – Công cụ soạn thảo và cộng tác nội dung
+Google Docs được sử dụng để viết nội dung dự án chung. Em tham gia trực tiếp vào tài liệu bằng tài khoản cá nhân, sử dụng chế độ chỉnh sửa và bình luận để bổ sung nội dung, góp ý và sửa lỗi cùng nhóm.
+Phần nội dung em phụ trách là mô tả nhu cầu quản lý chi tiêu của sinh viên, khó khăn mà sinh viên thường gặp khi kiểm soát tài chính và các tính năng đề xuất của ứng dụng. Trong quá trình làm việc, em chỉnh sửa trực tiếp trên tài liệu, phản hồi bình luận của các bạn trong nhóm và tiếp nhận góp ý để hoàn thiện phần viết.
+Điểm mạnh của Google Docs là cho phép nhiều người cùng chỉnh sửa trong thời gian thực, có lịch sử phiên bản rõ ràng và hiển thị được phần đóng góp của từng người. Điều này giúp em dễ chứng minh vai trò cá nhân của mình trong bài tập.
+3. Google Drive – Công cụ lưu trữ và chia sẻ tài liệu
+Để quản lý tài liệu dự án, nhóm em sử dụng Google Drive làm nơi lưu trữ chung. Em phụ trách sắp xếp một phần tài nguyên nên đã tạo cấu trúc thư mục rõ ràng, ví dụ như: Tài liệu tham khảo, Nội dung viết, Hình ảnh minh họa, Bản thuyết trình, Phiên bản hoàn thiện.
+Ngoài việc tải lên các file mình phụ trách, em còn đặt tên tệp theo quy tắc thống nhất để nhóm dễ tìm kiếm, chẳng hạn như: Nhom3_NoidungTinhNang_v1, Nhom3_HinhanhMinhhoa, Nhom3_BaocaoCaNhan. Em cũng kiểm tra quyền truy cập của các file và thư mục để đảm bảo các thành viên đều có thể xem hoặc chỉnh sửa khi cần thiết.
+Nhờ đó, tài liệu của nhóm không bị lưu trữ rời rạc, giảm tình trạng thất lạc file hoặc trùng lặp phiên bản.
+4. Discord – Công cụ giao tiếp và trao đổi nhóm
+Discord là công cụ nhóm em dùng để trao đổi nhanh trong quá trình làm việc. Em tham gia thảo luận trong nhóm chat, phản hồi các câu hỏi liên quan đến phần nội dung mình phụ trách và chủ động trao đổi khi có thay đổi về deadline hoặc chỉnh sửa tài liệu.
+Trong suốt thời gian thực hiện, em đã nhắn tin xác nhận nhiệm vụ, báo cáo tiến độ, gửi link tài liệu và góp ý cho phần trình bày chung của nhóm. Các cuộc trao đổi trên Discord giúp tiết kiệm thời gian hơn so với việc chờ gặp trực tiếp, đồng thời lưu lại lịch sử trao đổi rõ ràng.
+IV. Quá trình thực hiện trong 1 tuần
+Trong tuần thực hiện dự án, em làm việc theo kế hoạch cụ thể và cập nhật thường xuyên trên các công cụ đã chọn.
+Ngày 1: Nhóm thống nhất chủ đề dự án và phân công nhiệm vụ. Em tham gia tạo hoặc tham gia bảng Trello, nhận nhiệm vụ viết nội dung và phụ trách một phần lưu trữ tài liệu. Đồng thời, em vào Google Docs và Google Drive bằng tài khoản cá nhân để chuẩn bị môi trường làm việc.
+Ngày 2: Em tạo danh sách công việc cá nhân trên Trello, đặt deadline cho từng nhiệm vụ như tìm tài liệu tham khảo, viết nội dung phần mở đầu và phần tính năng ứng dụng. Em cũng tạo cấu trúc thư mục trên Google Drive để lưu tài liệu có hệ thống.
+Ngày 3: Em bắt đầu viết nội dung trực tiếp trên Google Docs. Trong quá trình đó, em tham khảo thêm tài liệu, chèn nội dung mới và chỉnh sửa theo phản hồi của nhóm. Trên Discord, em chủ động nhắn tin hỏi ý kiến các bạn về bố cục trình bày và độ dài nội dung.
+Ngày 4: Em tiếp tục hoàn thiện phần việc của mình và cập nhật trạng thái nhiệm vụ trên Trello từ “Doing” sang “Review”. Một số góp ý từ các thành viên về cách diễn đạt và ví dụ minh họa được em tiếp nhận và chỉnh sửa trực tiếp trên Google Docs.
+Ngày 5: Em hỗ trợ nhóm rà soát lại các file trên Google Drive, đổi tên một số tệp để đồng bộ hơn, đồng thời kiểm tra lại quyền truy cập để tránh lỗi không mở được file. Em cũng trao đổi trên Discord để thống nhất phiên bản cuối cùng cần sử dụng.
+Ngày 6: Em chỉnh sửa lần cuối phần nội dung cá nhân, đánh dấu nhiệm vụ đã hoàn thành trên Trello và gửi thông báo cho nhóm. Sau đó, em tổng hợp lại các minh chứng cần thiết như ảnh chụp màn hình bảng Trello, lịch sử chỉnh sửa trên Google Docs, thư mục Google Drive và tin nhắn Discord.
+Ngày 7: Em rà soát toàn bộ quá trình, đánh giá hiệu quả của từng công cụ và viết báo cáo cá nhân này.
+Nhìn chung, quá trình làm việc được duy trì liên tục, có cập nhật tiến độ và có sự phối hợp thường xuyên với các thành viên trong nhóm. Điều này giúp em hoàn thành phần việc đúng thời hạn và góp phần vào tiến độ chung của dự án.
+V. Đánh giá hiệu quả của các công cụ đã sử dụng
+1. Hiệu quả của Trello
+Trello giúp em quản lý công việc một cách trực quan và có hệ thống. Việc chia nhiệm vụ theo từng cột trạng thái giúp em biết mình đang ở giai đoạn nào, còn thiếu gì và cần ưu tiên việc nào trước. Các tính năng như deadline, checklist và label giúp công việc rõ ràng hơn, tránh quên việc hoặc làm thiếu bước.
+Ngoài ra, Trello còn hỗ trợ nhóm theo dõi tiến độ chung. Khi em cập nhật nhiệm vụ thường xuyên, các thành viên khác có thể biết phần việc của em đã hoàn thành đến đâu mà không cần hỏi lại nhiều lần. Đây là công cụ hữu ích nhất đối với việc tự quản lý nhiệm vụ cá nhân.
+2. Hiệu quả của Google Docs
+Google Docs rất phù hợp với công việc viết nội dung nhóm. Việc nhiều người cùng chỉnh sửa trên một tài liệu giúp tiết kiệm thời gian so với cách gửi file qua lại. Em có thể nhìn thấy ý kiến đóng góp của người khác ngay lập tức, đồng thời tài liệu luôn được lưu tự động nên không lo mất nội dung.
+Điểm quan trọng nhất là Google Docs cho phép xem lịch sử chỉnh sửa và bình luận, từ đó giúp minh bạch hóa phần đóng góp của từng cá nhân. Điều này đặc biệt phù hợp với yêu cầu của bài tập vì có thể dùng làm minh chứng cụ thể.
+3. Hiệu quả của Google Drive
+Google Drive giúp nhóm em tổ chức tài nguyên tập trung tại một nơi duy nhất. Khi các file được sắp xếp theo thư mục và tên file thống nhất, việc tìm kiếm trở nên nhanh hơn và ít nhầm lẫn giữa các phiên bản. Công cụ này cũng giúp em dễ chia sẻ file với nhóm và truy cập từ nhiều thiết bị.
+Đối với cá nhân em, việc chủ động sắp xếp tài liệu trên Drive còn giúp rèn luyện thói quen quản lý file khoa học, rất cần thiết cho học tập và công việc sau này.
+4. Hiệu quả của Discord
+Discord hỗ trợ giao tiếp nhanh, linh hoạt và thuận tiện hơn khi làm việc nhóm từ xa. Trong quá trình thực hiện dự án, em dùng Discord để trao đổi tiến độ, gửi tài liệu, hỏi ý kiến và phản hồi các góp ý từ nhóm. Nhờ đó, việc xử lý công việc diễn ra liên tục và không bị gián đoạn.
+So với việc chỉ dùng tin nhắn cá nhân, giao tiếp qua kênh nhóm trên Discord có lợi thế là mọi trao đổi đều được lưu lại, giúp cả nhóm dễ theo dõi và tránh bỏ sót thông tin.
+VI. Thuận lợi, khó khăn và cách giải quyết
+Trong quá trình sử dụng các công cụ hợp tác trực tuyến, em nhận thấy có nhiều thuận lợi rõ rệt. Thứ nhất, các công cụ giúp tiết kiệm thời gian vì nhóm không cần gặp mặt trực tiếp quá nhiều mà vẫn có thể phối hợp hiệu quả. Thứ hai, tiến độ công việc minh bạch hơn vì mỗi người đều có thể nhìn thấy nhiệm vụ và trạng thái hoàn thành. Thứ ba, tài liệu được lưu trữ tập trung nên giảm nguy cơ thất lạc hoặc sử dụng nhầm phiên bản.
+Tuy nhiên, em cũng gặp một số khó khăn. Ban đầu, việc sử dụng nhiều công cụ cùng lúc khiến em hơi rối, đặc biệt là khi phải chuyển qua lại giữa Trello, Google Docs, Google Drive và Discord. Ngoài ra, đôi khi nhóm phản hồi chưa đồng đều, có thành viên trả lời chậm làm ảnh hưởng đến tốc độ xử lý một số nội dung. Một khó khăn khác là nếu không đặt quy tắc đặt tên file từ đầu, tài liệu rất dễ bị lộn xộn.
+Để giải quyết các vấn đề này, em và nhóm đã thống nhất rõ vai trò của từng công cụ: Trello dùng để theo dõi nhiệm vụ, Google Docs dùng để viết nội dung, Google Drive dùng để lưu file, Discord dùng để trao đổi. Em cũng chủ động cập nhật tiến độ thường xuyên, đặt deadline rõ ràng cho từng việc nhỏ và nhắn trực tiếp trên Discord khi cần nhóm phản hồi nhanh. Đối với vấn đề lưu trữ file, em áp dụng quy tắc đặt tên thống nhất và chia thư mục theo từng loại tài liệu.
+Qua đó, em nhận thấy rằng hiệu quả của công cụ không chỉ phụ thuộc vào tính năng sẵn có mà còn phụ thuộc vào cách người dùng tổ chức và duy trì kỷ luật làm việc.
+VII. Kết luận
+Sau một tuần tham gia dự án nhóm, em nhận thấy các công cụ hợp tác trực tuyến đóng vai trò rất quan trọng trong việc nâng cao hiệu quả làm việc nhóm và khả năng tự quản lý công việc cá nhân. Việc sử dụng kết hợp Trello, Google Docs, Google Drive và Discord đã giúp em quản lý nhiệm vụ rõ ràng hơn, đóng góp nội dung trực tiếp, trao đổi với nhóm hiệu quả và lưu trữ tài liệu một cách khoa học.
+Không chỉ giúp hoàn thành bài tập đúng tiến độ, quá trình này còn giúp em rèn luyện các kỹ năng cần thiết như lập kế hoạch, quản lý thời gian, phối hợp nhóm, giao tiếp trực tuyến và tổ chức tài nguyên số. Đây là những kỹ năng rất cần thiết trong học tập hiện đại cũng như trong môi trường làm việc sau này.
+Từ trải nghiệm cá nhân, em cho rằng việc chọn đúng công cụ và sử dụng chúng một cách có kỷ luật sẽ giúp quá trình làm việc nhóm trở nên chuyên nghiệp, minh bạch và hiệu quả hơn rất nhiều.

@@ -1,0 +1,53 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[vietnamese]{babel}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{hyperref}
+
+\title{\textbf{Báo cáo Nghiên cứu: Ứng dụng Trí tuệ Nhân tạo trong Tối ưu hóa Quy trình Huấn luyện Mạng Thần kinh Tích chập}}
+\author{\textbf{Lê Đức Tiến} \\ Trường Đại học Công nghệ (UET) -- ĐHQGHN}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+Bài báo cáo này trình bày quy trình ứng dụng hệ sinh thái Multi-AI (Gemini, Perplexity, GitHub Copilot) hỗ trợ xây dựng và tối ưu hóa mô hình học sâu CNN phân loại hình ảnh. Kết quả cho thấy việc áp dụng AI theo mô hình Human-in-the-loop giúp tiết kiệm hơn 70\% thời gian lập trình và viết báo cáo khoa học, đồng thời cải thiện độ chính xác của mô hình nhờ các chiến lược xử lý overfitting tối ưu do trợ lý trí tuệ nhân tạo đề xuất.
+\end{abstract}
+
+\section{Đặt vấn đề \& Mục tiêu nghiên cứu}
+Xây dựng các kiến trúc mạng thần kinh tích chập (CNN) đòi hỏi việc tối ưu hóa đồng thời cấu trúc tầng (layer configuration) và các siêu tham số (hyperparameters). Nhiệm vụ học tập được lựa chọn là thiết lập một pipeline hoàn chỉnh từ xử lý dữ liệu, xây dựng mạng CNN bằng PyTorch và biên soạn tài liệu học thuật bằng \LaTeX{}. Mục tiêu cốt lõi là kiểm chứng năng lực của AI trong việc đẩy nhanh tiến độ nghiên cứu và nâng cao chất lượng mã nguồn.
+
+\section{Phương pháp và Kế hoạch Phối hợp Multi-AI}
+Chúng tôi thiết lập một quy trình làm việc khép kín kết hợp giữa năng lực định hướng của con người và khả năng sinh mã, tìm kiếm thông tin của AI:
+\begin{itemize}
+    \item \textbf{Kiến trúc sư trưởng (Gemini):} Chịu trách nhiệm thiết kế khung cấu trúc tầng và đề xuất giải pháp xử lý lỗi hệ thống.
+    \item \textbf{Thư viện trưởng (Perplexity AI):} Tổng hợp các bài báo khoa học liên quan đến cấu trúc điều hướng tốc độ học tập (learning rate decay).
+    \item \textbf{Trợ lý Copilot:} Tối ưu hóa cú pháp và tự động viết các đoạn code boilerplate trong IDE.
+\end{itemize}
+
+\section{Kết quả Thực nghiệm \& Đánh giá}
+Mô hình sau khi được áp dụng kỹ thuật Dropout ($p=0.5$) và StepLR do AI gợi ý đã giải quyết triệt để hiện tượng Overfitting, nâng độ chính xác trên tập kiểm thử (validation set) từ 72\% lên 81.5\%.
+
+\begin{table}[htbp]
+  \centering
+  \caption{So sánh thời gian hoàn thành nhiệm vụ giữa hai phương pháp}
+    \begin{tabular}{lccc}
+    \toprule
+    \textbf{Giai đoạn thực hiện} & \textbf{Truyền thống (giờ)} & \textbf{Kết hợp AI (giờ)} & \textbf{Hiệu suất tăng} \\
+    \midrule
+    Thiết kế \& Lập trình Code & 8.0 & 2.0 & 75\% \\
+    Tra cứu tài liệu khoa học   & 5.0 & 1.5 & 70\% \\
+    Soạn thảo báo cáo \LaTeX{} & 6.0 & 2.0 & 66\% \\
+    \bottomrule
+    \end{tabular}
+  \label{tab:performance}
+\end{table}
+
+\section{Kết luận}
+Sự kết hợp thông minh giữa con người và AI mở ra phương pháp tiếp cận học tập hiện đại, giúp sinh viên tập trung vào tư duy thuật toán cốt lõi thay vì tiêu tốn thời gian vào các lỗi cú pháp thông thường.
+
+\end{document}

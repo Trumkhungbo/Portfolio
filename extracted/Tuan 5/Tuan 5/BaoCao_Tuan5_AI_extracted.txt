@@ -1,0 +1,40 @@
+BÁO CÁO TUẦN 5
+ỨNG DỤNG CÔNG CỤ AI TẠO SINH TRONG SÁNG TẠO NỘI DUNG SỐ
+Sản phẩm cuối: Infographic 1 trang
+Chủ đề: AI hỗ trợ học tập an toàn và hiệu quả
+Họ và tên: Lê Đức Tiến
+Lớp: K70I-CS6
+1. Mục tiêu và lựa chọn dự án
+Tôi chọn dự án tạo một infographic một trang về cách sử dụng AI trong học tập. Dự án này phù hợp với yêu cầu vì có thể kết hợp rõ ràng giữa văn bản, hình ảnh và thiết kế, đồng thời dễ thể hiện quá trình làm việc với ba loại công cụ AI khác nhau.
+Mục tiêu của sản phẩm là giúp người đọc nhìn nhanh là hiểu: AI hỗ trợ ở đâu, điểm nào cần kiểm tra lại, và làm sao để giữ được dấu ấn sáng tạo cá nhân. Tôi muốn sản phẩm cuối cùng ngắn gọn, dễ đọc, có bố cục sạch sẽ và có thể dùng luôn cho bài thuyết trình trên lớp.
+2. Công cụ AI đã sử dụng
+3. Quá trình sử dụng AI: prompt, kết quả và chỉnh sửa
+Bảng dưới đây ghi lại các prompt chính. Tôi không dùng đầu ra của AI nguyên xi, mà luôn sửa lại để nội dung ngắn hơn, đúng mục tiêu lớp học và phù hợp với giọng văn của mình.
+Ảnh chụp màn hình minh họa quá trình làm việc
+Ảnh prompt chatGPT:
+Prompt GEMINI:
+Dùng AI tạo hình ảnh:
+Prompt CANVA AI để có các mẫu:
+Prompt Canva AI để hoàn thiện sản phẩm:
+4. So sánh kết quả giữa các công cụ AI
+ChatGPT làm tốt nhất ở khâu suy nghĩ và sắp xếp nội dung. Công cụ này giúp tôi nhanh chóng biến ý tưởng mơ hồ thành một dàn ý rõ ràng, nhưng nếu dùng trực tiếp thì nội dung vẫn còn hơi dài và chung chung.
+DALL-E mạnh ở phần hình ảnh: ảnh tạo ra có tính trực quan và phù hợp chủ đề. Tuy nhiên, nó không thay thế được vai trò của người làm khi cần chọn đúng ảnh, đúng tông màu, hoặc chỉnh chi tiết cho hợp với bố cục thật.
+Canva AI là công cụ hữu ích nhất ở bước hoàn thiện vì nó biến các phần rời rạc thành một sản phẩm có cấu trúc. Điểm hạn chế là nếu phụ thuộc vào mẫu có sẵn, sản phẩm dễ bị na ná các mẫu khác, nên tôi vẫn phải tự điều chỉnh để tạo cảm giác riêng.
+Từ trải nghiệm này, tôi nhận ra AI không chỉ là công cụ tạo ra nội dung, mà còn là công cụ để thử nhiều phiên bản nhanh hơn. Tuy vậy, chất lượng cuối cùng vẫn phụ thuộc vào khả năng chọn lọc, cắt bỏ, và sắp xếp lại của người làm.
+5. Sản phẩm cuối cùng
+Sản phẩm cuối cùng là một infographic 1 trang. Tôi chọn bố cục dọc để dễ đọc trên điện thoại và dễ in ra giấy. Nội dung chính được chia thành ba phần: ý tưởng, công cụ AI, và dấu ấn cá nhân. Phần hình minh họa được đặt ở trung tâm để tạo điểm nhấn, còn phần chữ được rút ngắn để người xem không bị quá tải.
+Hình 1. Infographic hoàn thiện (sản phẩm cuối).
+6. Vai trò của AI và các vấn đề đạo đức
+AI hỗ trợ rất mạnh ở giai đoạn khởi đầu vì nó giúp tôi vượt qua tình trạng không biết bắt đầu từ đâu. Chỉ với vài prompt, tôi có thể có dàn ý, gợi ý từ khóa và một số phương án hình ảnh để thử nhanh. Nhờ vậy, thời gian dành cho phần nghĩ ý tưởng giảm xuống, còn thời gian dành cho chỉnh sửa và nâng chất lượng tăng lên.
+Tuy nhiên, AI cũng có hạn chế. Nội dung do AI tạo ra đôi khi quá an toàn, thiếu góc nhìn riêng, hoặc viết theo kiểu chung chung. Nếu dùng mà không kiểm tra, sản phẩm dễ mất tính cá nhân và có thể sai thông tin. Vì vậy, tôi luôn đọc lại, lược bớt, đổi câu chữ và chỉ giữ phần nào thật sự phù hợp.
+Về đạo đức, tôi cần chú ý ba điểm. Thứ nhất là minh bạch: phải ghi rõ phần nào có hỗ trợ của AI. Thứ hai là bản quyền và tính nguyên gốc: không sao chép trực tiếp nội dung hoặc thiết kế của người khác. Thứ ba là trách nhiệm kiểm chứng: dù AI trả lời nhanh, tôi vẫn phải tự kiểm tra trước khi nộp. Nói cách khác, AI là công cụ hỗ trợ, còn người làm vẫn chịu trách nhiệm cuối cùng về chất lượng và tính trung thực của sản phẩm.
+7. Kết luận
+Dự án này giúp tôi hiểu rõ hơn vai trò của AI trong sáng tạo nội dung số. AI làm tốt ở tốc độ, gợi ý ý tưởng và hỗ trợ thao tác, còn tôi làm tốt ở việc chọn lọc, điều chỉnh và tạo bản sắc riêng. Khi kết hợp đúng cách, hai phần này bổ sung cho nhau và tạo ra một sản phẩm hoàn chỉnh hơn.
+Công cụ | Vai trò trong dự án
+ChatGPT | Tạo dàn ý, viết bản nháp nội dung, chỉnh tiêu đề và gợi ý prompt cho công cụ khác.
+DALL-E | Tạo hình minh họa trung tâm cho infographic với phong cách hiện đại, sáng và thân thiện.
+Canva AI | Sắp xếp bố cục, phối màu, đặt chữ, và hoàn thiện thiết kế cuối cùng.
+Công cụ | Prompt đã dùng | Kết quả nhận được | Tôi đã chỉnh sửa
+ChatGPT | Hãy viết dàn ý cho infographic 1 trang về việc dùng AI trong học tập, dành cho học sinh, văn phong ngắn gọn và dễ hiểu. | Đưa ra 5 mục: lợi ích, công cụ, quy trình, lưu ý đạo đức, kết luận. | Tôi rút còn 3 khối nội dung chính để bố cục gọn hơn và thêm ví dụ gần gũi như tóm tắt bài học, lên dàn ý, luyện viết.
+DALL-E | Tạo một minh họa dạng infographic nền sáng, chủ đề học tập với AI, có học sinh, laptop, biểu tượng bóng đèn và nhịp màu xanh dương - xanh lá. | Tạo được ảnh minh họa hiện đại, nhìn rõ chủ đề công nghệ - học tập. | Tôi chọn lại ảnh có ít chi tiết rối, tăng độ sáng và đặt ảnh vào trung tâm để không tranh chấp với phần chữ.
+Canva AI | Thiết kế infographic dọc 1 trang, bố cục ba khối, màu xanh dương chủ đạo, chữ dễ đọc, phù hợp bài nộp trên lớp. | Gợi ý nhiều mẫu bố cục và kiểu chữ, hỗ trợ ghép chữ với hình. | Tôi thay màu quá sặc sỡ bằng tông dịu hơn, giảm bớt icon thừa và tăng khoảng trắng để sản phẩm trông chuyên nghiệp.
